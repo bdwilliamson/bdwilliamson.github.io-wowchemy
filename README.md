@@ -1,2 +1,2 @@
 # bdwilliamson.github.io
-Website!
+Personal website for Brian D Williamson, PhD student in Biostatistics at the University of Washington.
