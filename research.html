@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Researc</title>
+<title>Research</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -18,12 +18,23 @@
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Researc</h1>
-<div id="subtitle"></div>
+<h1>Research</h1>
+<div id="subtitle">I am interested in problems of high-dimensional data, data science, and statistical inference. In particular, I enjoy working on developing new methodology for addressing scientific questions using large and complex datasets, and appropriately quantifying uncertainty in our resulting estimates. I also enjoy working on problems involving how best to tell a story using data. I have been primarily motivated by applications in public health and medicine, but I am always open to collaborations on interesting problems in any area of research.</div>
 </div>
+<h2>Functional estimation</h2>
+<p>One important aspect of my personal approach to data analysis is defining the statistical parameter of interest as a functional of the data generating mechanism. For example, if you describe the probability distribution your data follows (for example, your binary data follow a Bernoulli distribution with a given success probability), I should be able to give you a value of the parameter of interest under this distribution.</p>
+<h3>Nonparametric variable importance assessment</h3>
+<p>Imagine that you are an infectious disease researcher that has just completed an efficacy trial for a new vaccine. Studying those participants randomized to receive the vaccine who still contracted the disease and quantifying the importance of certain features (e.g., age, geographic location, blood concentration of specific antibodies), and quantifying our uncertainty about these estimates, gives us insight into how the vaccine works.</p>
+<p>This work is focused on developing a statistical functional that defines variable importance for a single feature or group of features as an inherent property of the data generating mechanism, and then developing an estimation procedure that allows the user to estimate the conditional mean flexibly but still have an efficient estimator of the true variable importance with valid confidence intervals.</p>
+<p>More information on this topic, including a video and some technical slides, can be found <a href="https://briandwilliamson.tumblr.com">here</a>. Code implementing these methods is available on GitHub, for both <a href="https://github.com/bdwilliamson/vimp">R</a> and <a href="https://github.com/bdwilliamson/vimpy">Python</a>.</p>
+<h2>Function estimation</h2>
+<p>If our scientific interest lies in understanding the association between an outcome and some features, then we typically quantify this association using the conditional mean. We can then model the conditional mean parametrically (assuming, e.g., a linear relationship between the features and the outcome) or we can be more flexible in the relationship between the features and the outcome. Often this leads us to use a flexible function to describe the conditional mean of the outcome given the features. Hence estimating this function is an interesting scientific problem.</p>
+<h3>Nonparametric online estimation of the conditional mean</h3>
+<p>It is increasingly common for our data to be too large to fit in a computer's memory all at once. In other cases, we only get small amounts of data at a time, but we want up-to-date analyses of the picture so far. These settings both fall under the umbrella of &ldquo;online&rdquo; or &ldquo;streaming&rdquo; data. </p>
+<p>Classicaly, we estimate the conditional mean using a parametric procedure, even if that procedure is regularized. However, if we want to be more flexible with the shapes that the conditional mean can take, we turn to more nonparametric methods. This work is focused on developing a method for estimating the conditional mean in a procedure that updates with each available observation, yet allows for the conditional mean function to be flexible</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2017-08-08 12:41:55 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2017-08-08 13:53:28 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
