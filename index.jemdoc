@@ -1,49 +1,32 @@
 # jemdoc: menu{MENU}{index.html}, showsource
-= jemdoc -- light markup
-[https://jemnz.com/ Jacob Mattingley] ([www@jemnz.com])
+= Brian David Williamson
 
-jemdoc is a light text-based markup language designed for creating 
-websites. It takes a text file written with [example.html jemdoc markup], an
-optional configuration file and an optional menu file, and makes static websites
-that look something like this one, [https://jemnz.com that one] or
-[http://www.stanford.edu/class/ee364a/ another one].
+PhD student, [https://www.biostat.washington.edu/ Department of Biostatistics], [https://www.washington.edu/ University of Washington].
 
-jemdoc was inspired by [http://www.methods.co.nz/asciidoc/ AsciiDoc], which is a
-text document format. AsciiDoc is great, and lots of the ideas from AsciiDoc are
-copied in jemdoc. The main differences are that jemdoc is simpler (you could say
-deliberately feature poor) and has more consistent syntax.
+Dissertation Advisors: [http://faculty.washington.edu/mcarone/about.html Marco Carone] and [http://faculty.washington.edu/nrsimon/ Noah Simon].
 
-[download.html Download jemdoc.]
+RA Advisor: [http://faculty.washington.edu/jphughes/ Jim Hughes].
+Collaborators: [https://www.fredhutch.org/en/labs/profiles/donnell-deborah.html Deborah Donnell] and [https://www.fredhutch.org/en/labs/profiles/hanscom-brett.html Brett Hanscom].
 
-~~~
-Version +0.7.3+ was released on 2012-11-27 with some small bug fixes.
-See the [revision.html release notes].
-~~~
+Check out my [https://github.com/bdwilliamson GitHub] and [https://www.linkedin.com/in/brianwilliamson26/ LinkedIn]. Contact me via e-mail at brianw26WHALE\[at\]uw\[dot\]edu \(replace text in square brackets with the symbol, and remove any mention of large marine mammals in all caps\).
 
-[https://github.com/jem/jemdoc Contribute to jemdoc on github.]
 
-== Goals
-- Simple, consistent syntax.
-- $\mbox{\LaTeX}$ [latex.html equation support].
-- [tables.html Table support].
-- Portability. The (single) jemdoc [http://www.python.org/ Python] file \+
-  single css file \+ your input file {{&rarr;}} html.
-- Based on [http://www.w3.org/Style/CSS/ CSS] so formatting specifics are
-  independent of jemdoc.
-- Production of clean,
-  [http://validator.w3.org/check/referer
-  standards-compliant] [http://www.w3.org/TR/xhtml11/ XHTML 1.1].
-- Minimal bells and whistles, but simple fallback to raw html if required.
+== Research Experience
+- RA, [http://www.fredhutch.org/en/labs/vaccine-and-infectious-disease/scharp.html Statistical Center for HIV/AIDS Research and Preventsion], [http://www.fredhutch.org/ Fred Hutchinson Cancer Research Center], June 2015--Present
+- Integrative Cancer Biology Program Research Fellow, [Center for Cancer Systems Biology], [Stanford University], June--August 2013
 
-== License
-Copyright \C 2007--2012 Jacob Mattingley.
 
-jemdoc is free software; you can redistribute it and\/or modify it under the
-terms of the [http://www.gnu.org/licenses/gpl-3.0.html GNU General Public
-License] as published by the Free Software Foundation; either version 3 of the
-License, or (at your option) any later version.
+== Teaching Experience
+. TA, University of Washington
+  .. Biostatistics service courses, R package development, June 2014--June 2015
+  .. BIOST 571, Advanced Regression Methods for Dependent Data, January--March 2017
+  .. BIOST 311, Regression Methods for the Health Sciences, March--June 2017
+. Instructor, University of Washington
+  .. School of Public Health Math/R Workshop, 2016 and 2017
 
-jemdoc is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE. See the [http://www.gnu.org/licenses/gpl-3.0.html GNU
-General Public License] for more details.
+
+== Education
+- MS in Biostatistics, University of Washington, 2017
+- BA in [https://www.pomona.edu/academics/departments/mathematics Mathematics], [https://www.pomona.edu/ Pomona College], 2014 (under the direction of [http://research.pomona.edu/johardin/ Jo Hardin])
+
+
