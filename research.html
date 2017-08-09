@@ -11,7 +11,7 @@
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
-<div class="menu-category">jemdoc</div>
+<div class="menu-category">Brian David Williamson</div>
 <div class="menu-item"><a href="index.html">Home</a></div>
 <div class="menu-item"><a href="research.html" class="current">Research</a></div>
 <div class="menu-item"><a href="personal.html">Personal</a></div>
@@ -22,9 +22,13 @@
 <div id="subtitle">I am interested in problems of high-dimensional data, data science, and statistical inference. In particular, I enjoy working on developing new methodology for addressing scientific questions using large and complex datasets, and appropriately quantifying uncertainty in our resulting estimates. I also enjoy working on problems involving how best to tell a story using data. I have been primarily motivated by applications in public health and medicine, but I am always open to collaborations on interesting problems in any area of research.</div>
 </div>
 <h2>Functional estimation</h2>
-<p>One important aspect of my personal approach to data analysis is defining the statistical parameter of interest as a functional of the data generating mechanism. For example, if you describe the probability distribution your data follows (for example, your binary data follow a Bernoulli distribution with a given success probability), I should be able to give you a value of the parameter of interest under this distribution.</p>
+<table class="imgtable"><tr><td>
+<img src="functional.png" alt="100px" width="100px" />&nbsp;</td>
+<td align="left"></td></tr></table>
 <h3>Nonparametric variable importance assessment</h3>
-<p>Imagine that you are an infectious disease researcher that has just completed an efficacy trial for a new vaccine. Studying those participants randomized to receive the vaccine who still contracted the disease and quantifying the importance of certain features (e.g., age, geographic location, blood concentration of specific antibodies), and quantifying our uncertainty about these estimates, gives us insight into how the vaccine works.</p>
+<table class="imgtable"><tr><td>
+<img src="heart_separate_std_onestep.png" alt="Sample variable importance ranking based on proposed estimator" width="100px" height="200px" />&nbsp;</td>
+<td align="left"></td></tr></table>
 <p>This work is focused on developing a statistical functional that defines variable importance for a single feature or group of features as an inherent property of the data generating mechanism, and then developing an estimation procedure that allows the user to estimate the conditional mean flexibly but still have an efficient estimator of the true variable importance with valid confidence intervals.</p>
 <p>More information on this topic, including a video and some technical slides, can be found <a href="https://briandwilliamson.tumblr.com">here</a>. Code implementing these methods is available on GitHub, for both <a href="https://github.com/bdwilliamson/vimp">R</a> and <a href="https://github.com/bdwilliamson/vimpy">Python</a>.</p>
 <h2>Function estimation</h2>
@@ -34,7 +38,7 @@
 <p>Classicaly, we estimate the conditional mean using a parametric procedure, even if that procedure is regularized. However, if we want to be more flexible with the shapes that the conditional mean can take, we turn to more nonparametric methods. This work is focused on developing a method for estimating the conditional mean in a procedure that updates with each available observation, yet allows for the conditional mean function to be flexible</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2017-08-08 13:53:28 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2017-08-09 08:14:26 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
