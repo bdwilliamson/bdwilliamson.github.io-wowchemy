@@ -4,13 +4,13 @@ I am interested in problems of high-dimensional data, data science, and statisti
 
 == Functional estimation
 ~~~
-{}{img_left}{functional.png}{100px}{100px}{}
+{}{img_left}{functional.png}{480px}{480px}{}
 ~~~
 One important aspect of my personal approach to data analysis is defining the statistical parameter of interest as a functional of the data generating mechanism. For example, if you describe the probability distribution your data follows (for example, your binary data follow a Bernoulli distribution with a given success probability), I should be able to give you a value of the parameter of interest under this distribution.
 
 === Nonparametric variable importance assessment
 ~~~
-{}{img_left}{heart_separate_std_onestep.png}{Sample variable importance ranking based on proposed estimator}{100px}{200px}{}
+{}{img_left}{heart_separate_std_onestep.png}{Sample variable importance ranking based on proposed estimator}{480px}{480px}{}
 ~~~
 Imagine that you are an infectious disease researcher that has just completed an efficacy trial for a new vaccine. Studying those participants randomized to receive the vaccine who still contracted the disease and quantifying the importance of certain features (e.g., age, geographic location, blood concentration of specific antibodies), and quantifying our uncertainty about these estimates, gives us insight into how the vaccine works.
 
