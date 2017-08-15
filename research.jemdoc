@@ -4,19 +4,19 @@ I am interested in problems of high-dimensional data, data science, and statisti
 
 == Functional estimation
 ~~~
-{}{img_left}{functional.png}{480px}{480px}
+{}{img_left}{functional.png}{Example functional with model space}{300px}{200px}
 One important aspect of my personal approach to data analysis is defining the statistical parameter of interest as a functional of the data generating mechanism. For example, if you describe the probability distribution your data follows (for example, your binary data follow a Bernoulli distribution with a given success probability), I should be able to give you a value of the parameter of interest under this distribution.
 ~~~
 
 === Nonparametric variable importance assessment
 ~~~
-{}{img_left}{heart_separate_std_onestep.png}{Sample variable importance ranking based on proposed estimator}{480px}{480px}
+{}{img_left}{heart_separate_std_onestep.png}{Sample variable importance estimates for heart disease data}{480px}{480px}
 Imagine that you are an infectious disease researcher that has just completed an efficacy trial for a new vaccine. Studying those participants randomized to receive the vaccine who still contracted the disease and quantifying the importance of certain features (e.g., age, geographic location, blood concentration of specific antibodies), and quantifying our uncertainty about these estimates, gives us insight into how the vaccine works.
-~~~
 
 This work is focused on developing a statistical functional that defines variable importance for a single feature or group of features as an inherent property of the data generating mechanism, and then developing an estimation procedure that allows the user to estimate the conditional mean flexibly but still have an efficient estimator of the true variable importance with valid confidence intervals.
 
 More information on this topic, including a video and some technical slides, can be found [https://briandwilliamson.tumblr.com here]. Code implementing these methods is available on GitHub, for both [https://github.com/bdwilliamson/vimp R] and [https://github.com/bdwilliamson/vimpy Python].
+~~~
 
 == Function estimation
 If our scientific interest lies in understanding the association between an outcome and some features, then we typically quantify this association using the conditional mean. We can then model the conditional mean parametrically (assuming, e.g., a linear relationship between the features and the outcome) or we can be more flexible in the relationship between the features and the outcome. Often this leads us to use a flexible function to describe the conditional mean of the outcome given the features. Hence estimating this function is an interesting scientific problem.
