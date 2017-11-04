@@ -13,9 +13,9 @@ One important aspect of my personal approach to data analysis is defining the st
 {}{img_left}{heart_separate_std_onestep.png}{Sample variable importance estimates for heart disease data}{480px}{480px}
 Imagine that you are an infectious disease researcher that has just completed an efficacy trial for a new vaccine. Studying those participants randomized to receive the vaccine who still contracted the disease and quantifying the importance of certain features (e.g., age, geographic location, blood concentration of specific antibodies), and quantifying our uncertainty about these estimates, gives us insight into how the vaccine works.
 
-This work is focused on developing a statistical functional that defines variable importance for a single feature or group of features as an inherent property of the data generating mechanism, and then developing an estimation procedure that allows the user to estimate the conditional mean flexibly but still have an efficient estimator of the true variable importance with valid confidence intervals.
+This work is focused on developing a statistical functional that defines variable importance for a single feature or group of features as an inherent property of the data generating mechanism, and then developing an estimation procedure that allows the user to estimate the conditional mean flexibly but still have an efficient estimator of the true variable importance with valid confidence intervals for the true importance.
 
-More information on this topic, including a video and some technical slides, can be found [https://briandwilliamson.tumblr.com here]. A preprint of the work is [http://biostats.bepress.com/uwbiostat/paper422/ here]. Code implementing these methods is available on GitHub, for both [https://github.com/bdwilliamson/vimp R] and [https://github.com/bdwilliamson/vimpy Python].
+[http://biostats.bepress.com/uwbiostat/paper422/ preprint] | [https://github.com/bdwilliamson/vimp R] | [https://github.com/bdwilliamson/vimpy Python] | [https://briandwilliamson.tumblr.com video and technical slides]
 ~~~
 
 == Function estimation
