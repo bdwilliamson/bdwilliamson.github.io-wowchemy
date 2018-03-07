@@ -21,6 +21,8 @@
 <h1>Research</h1>
 <div id="subtitle">I am interested in problems of high-dimensional data, data science, and statistical inference. In particular, I enjoy working on developing new methodology for addressing scientific questions using large and complex datasets, and appropriately quantifying uncertainty in our resulting estimates. I also enjoy working on problems involving how best to tell a story using data. I have been primarily motivated by applications in public health and medicine, but I am always open to collaborations on interesting problems in any area of research.</div>
 </div>
+<p>To date, I have been mostly focused on developing a novel method for assessing variable importance nonparametrically with Marco Carone, PhD and Noah Simon, PhD. We leverage tools from both machine learning and targeted learning to efficiently estimate a statistical parameter of interest, while providing appropriate estimates of our uncertainty. </p>
+<p>Vaccine efficacy trials often provide preliminary evidence of risk factors that predict vaccine efficacy. Recent advances in machine learning technology have simplified the process of developing high-performance predictive models. Rigorously evaluating immune correlates of risk and of protection involves both efficiently estimating the importance of features in predicting vaccine efficacy and hypothesis testing to investigate the proposed correlates. To date, rigorous statistical methods for efficient estimation of and valid inference for feature importance are lacking when flexible methods are used in prediction. In my dissertation I develop statistical methods to enable more efficient use of vaccine trial data to discover novel relationships between vaccines and disease, yielding a deeper understanding of how to develop better vaccine candidates and where to deploy existing vaccines.</p>
 <h2>Functional estimation</h2>
 <table class="imgtable"><tr><td>
 <img src="functional.png" alt="Example functional with model space" width="300px" height="200px" />&nbsp;</td>
@@ -37,10 +39,13 @@
 <p>If our scientific interest lies in understanding the association between an outcome and some features, then we typically quantify this association using the conditional mean. We can then model the conditional mean parametrically (assuming, e.g., a linear relationship between the features and the outcome) or we can be more flexible in the relationship between the features and the outcome. Often this leads us to use a flexible function to describe the conditional mean of the outcome given the features. Hence estimating this function is an interesting scientific problem.</p>
 <h3>Nonparametric online estimation of the conditional mean</h3>
 <p>It is increasingly common for our data to be too large to fit in a computer's memory all at once. In other cases, we only get small amounts of data at a time, but we want up-to-date analyses of the picture so far. These settings both fall under the umbrella of &ldquo;online&rdquo; or &ldquo;streaming&rdquo; data. </p>
-<p>Classicaly, we estimate the conditional mean using a parametric procedure, even if that procedure is regularized. However, if we want to be more flexible with the shapes that the conditional mean can take, we turn to more nonparametric methods. This work is focused on developing a method for estimating the conditional mean in a procedure that updates with each available observation, yet allows for the conditional mean function to be flexible</p>
+<p>Classicaly, we estimate the conditional mean using a parametric procedure, even if that procedure is regularized. However, if we want to be more flexible with the shapes that the conditional mean can take, we turn to more nonparametric methods. This work is focused on developing a method for estimating the conditional mean in a procedure that updates with each available observation, yet allows for the conditional mean function to be flexible.</p>
+<h2>HIV/AIDS </h2>
+<h3>Analysis of clinical trials data</h3>
+<h3>Adaptive non-inferiority trials</h3>
 <div id="footer">
 <div id="footer-text">
-Page generated 2017-11-04 16:46:10 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2018-03-07 10:45:36 PST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

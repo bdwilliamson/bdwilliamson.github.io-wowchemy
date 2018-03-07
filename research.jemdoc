@@ -2,6 +2,10 @@
 = Research
 I am interested in problems of high-dimensional data, data science, and statistical inference. In particular, I enjoy working on developing new methodology for addressing scientific questions using large and complex datasets, and appropriately quantifying uncertainty in our resulting estimates. I also enjoy working on problems involving how best to tell a story using data. I have been primarily motivated by applications in public health and medicine, but I am always open to collaborations on interesting problems in any area of research.
 
+To date, I have been mostly focused on developing a novel method for assessing variable importance nonparametrically with Marco Carone, PhD and Noah Simon, PhD. We leverage tools from both machine learning and targeted learning to efficiently estimate a statistical parameter of interest, while providing appropriate estimates of our uncertainty. 
+
+Vaccine efficacy trials often provide preliminary evidence of risk factors that predict vaccine efficacy. Recent advances in machine learning technology have simplified the process of developing high-performance predictive models. Rigorously evaluating immune correlates of risk and of protection involves both efficiently estimating the importance of features in predicting vaccine efficacy and hypothesis testing to investigate the proposed correlates. To date, rigorous statistical methods for efficient estimation of and valid inference for feature importance are lacking when flexible methods are used in prediction. In my dissertation I develop statistical methods to enable more efficient use of vaccine trial data to discover novel relationships between vaccines and disease, yielding a deeper understanding of how to develop better vaccine candidates and where to deploy existing vaccines.
+
 == Functional estimation
 ~~~
 {}{img_left}{functional.png}{Example functional with model space}{300px}{200px}
@@ -25,3 +29,9 @@ If our scientific interest lies in understanding the association between an outc
 It is increasingly common for our data to be too large to fit in a computer's memory all at once. In other cases, we only get small amounts of data at a time, but we want up-to-date analyses of the picture so far. These settings both fall under the umbrella of "online" or "streaming" data. 
 
 Classicaly, we estimate the conditional mean using a parametric procedure, even if that procedure is regularized. However, if we want to be more flexible with the shapes that the conditional mean can take, we turn to more nonparametric methods. This work is focused on developing a method for estimating the conditional mean in a procedure that updates with each available observation, yet allows for the conditional mean function to be flexible.
+
+== HIV/AIDS 
+
+=== Analysis of clinical trials data
+
+=== Adaptive non-inferiority trials
