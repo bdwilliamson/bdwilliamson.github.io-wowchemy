@@ -32,6 +32,8 @@ Classicaly, we estimate the conditional mean using a parametric procedure, even 
 
 == HIV/AIDS 
 
-=== Analysis of clinical trials data
+I work in both HIV prevention and vaccines research. I have been involved in two international clinical trials, the HIV Prevention Trials Network (HPTN) trials 063 and 068; I also am involved in statistical methods research. 
 
 === Adaptive non-inferiority trials
+
+Non-inferiority trials are often conducted to assess the efficacy of a new intervention when it is not ethical (or feasible) to randomize patients to a true placebo. Non-inferiority trials, then, often randomize patients to the experimental intervention or a standard-of-care intervention. The assumption often made in these trials is that the study participants in the standard-of-care arm of the non-inferiority trial are "similar" to the study participants in the arm of the original placebo-controlled trials of the standard-of-care intervention. However, this assumption may not be reasonable -- in the HIV prevention setting, we observed a certain level of adherence to pre-exposure prophylaxis (PrEP) in the initial placebo-controlled trials testing the efficacy of PrEP, but we may not observe this same level of adherence to PrEP in a different setting (especially now that PrEP is heavily marketed in some countries). With Brett Hanscom, Jim Hughes, and Deborah Donnell, I helped to develop a statistical method for rigorously adapting a non-inferiority trial based on observed characteristics of the standard-of-care arm. This work may be used in a secondary analysis of the clinical trial to assess the results under departures from assumptions used to design the trial.
