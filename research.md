@@ -8,19 +8,11 @@ To date, I have been primarily focused on developing a unified, model-free frame
 
 ### Variable importance
 
+Vaccine efficacy trials often provide preliminary evidence of risk factors that predict vaccine efficacy. Recent advances in machine learning technology have simplified the process of developing high-performance predictive models. Rigorously evaluating immune correlates of risk and of protection involves both efficiently estimating the importance of features in predicting vaccine efficacy and hypothesis testing to investigate the proposed correlates. To date, rigorous statistical methods for efficient estimation of and valid inference for feature importance are lacking when flexible methods are used in prediction. In this work, I develop statistical methods to enable more efficient use of vaccine trial data to discover novel relationships between vaccines and disease, yielding a deeper understanding of how to develop better vaccine candidates and where to deploy existing vaccines. The work is more broadly applicable as well: in many cases, we are interested in understanding the population interplay between the outcome and measured covariates, and variable importance is a useful tool towards this goal. Examples include: HIV vaccine studies, correlates of risk analyses, and identifying patients at high risk of returning to a hospital after discharge for heart failure. This is joint work with [http://faculty.washington.edu/mcarone/about.html Marco Carone], [https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html Peter Gilbert], and [http://faculty.washington.edu/nrsimon/ Noah Simon].
 
 
 [http://biostats.bepress.com/uwbiostat/paper422/ preprint] | [https://github.com/bdwilliamson/vimp R] | [https://github.com/bdwilliamson/vimpy Python] | [https://briandwilliamson.tumblr.com video and technical slides]
 
-This is joint work with [http://faculty.washington.edu/mcarone/about.html Marco Carone], [https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html Peter Gilbert], and [http://faculty.washington.edu/nrsimon/ Noah Simon].
-
-### Microbiome
-
-summary of the work here
-
-links to preprint, R package, slides
-
-This is joint work with [http://faculty.washington.edu/jphughes/ Jim Hughes] and [http://faculty.washington.edu/adwillis/ Amy Willis].
 
 ### Clinical trials
 
