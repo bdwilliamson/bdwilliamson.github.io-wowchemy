@@ -6,5 +6,5 @@ Department of Biostatistics
 University of Washington  
 Seattle, Washington 98195  
 
-Email: ![](email.png)
+Email: ![](email.png)  
 Web: [https://briandwilliamson.com](https://briandwilliamson.com)
