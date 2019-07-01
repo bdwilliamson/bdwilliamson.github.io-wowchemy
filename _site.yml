@@ -1,3 +1,4 @@
+---
 name: "Brian D. Williamson"
 output_dir: "."
 navbar:
@@ -15,4 +16,5 @@ navbar:
 output:
   html_document:
     theme: paper
-    css: 'sakura.css'
+    css: './sakura.css'
+---

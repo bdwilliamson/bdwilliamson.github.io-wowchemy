@@ -1,6 +1,6 @@
 # Research
 
-![ROC curves for a proposed VRC01 neutralization sensitivity predictor. Inset: 3D structure of the HIV Envelope protein with colored areas based on identified important features and groups. Please see below for more detail.](./images/ROC_curve_with_Env_inset_v2.png)
+![ROC curves for a proposed VRC01 neutralization sensitivity predictor. Inset: 3D structure of the HIV Envelope protein with colored areas based on identified important features and groups. Please see below, under "Broadly neutralizing antibodies", for more detail.](./images/ROC_curve_with_Env_inset_v2.png)
 
 I am interested in problems of high-dimensional data, data science, and statistical inference. In particular, I enjoy working on developing new methodology for addressing scientific questions using large and complex datasets, and appropriately quantifying uncertainty in the resulting estimates. I also enjoy working on problems involving how best to tell a story using data. I have been primarily motivated by applications in public health and medicine, but I am always open to collaborations on interesting problems in any area of research.
 
