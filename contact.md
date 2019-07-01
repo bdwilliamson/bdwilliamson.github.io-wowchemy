@@ -6,5 +6,5 @@ Department of Biostatistics
 University of Washington  
 Seattle, Washington 98195  
 
-Email: ![](email.png)  
+Email: ![](./images/email.png)  
 Web: [https://bdwilliamson.github.io](https://bdwilliamson.github.io)
