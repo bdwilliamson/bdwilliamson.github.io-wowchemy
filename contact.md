@@ -6,5 +6,5 @@ Department of Biostatistics
 University of Washington  
 Seattle, Washington 98195  
 
-Email: brianw26WHALE\[at\]uw\[dot\]edu (remove any mention of large marine mammals, and replace the other square-bracketed items with their symbol)  
+Email: ![](email.png)
 Web: [https://briandwilliamson.com](https://briandwilliamson.com)
