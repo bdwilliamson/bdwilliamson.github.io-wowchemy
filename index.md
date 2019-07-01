@@ -1,6 +1,6 @@
 # Home
 
-![](grad_photo_straight_medium.jpg)
+![](./images/grad_photo_straight_medium.jpg)
 
 I'm currently a PhD candidate in the [Department of Biostatistics](https://www.biostat.washington.edu/) at the [University of Washington](https://www.washington.edu/). I expect to graduate by the end of 2019. 
 
