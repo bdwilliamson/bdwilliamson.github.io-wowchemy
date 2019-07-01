@@ -21,7 +21,7 @@ all: $(HTML)
 
 # create tarball
 tar: $(MARKDOWN)
-	tar --exclude=jemdoc_version/ --exclude=eqs/ --exclude=.git/ --exclude=non_yet_published.txt --exclude=README.md -czvf website.tar.gz ./
+	tar --exclude=jemdoc_version/ --exclude=eqs/ --exclude=.git/ --exclude=non_yet_published.txt --exclude=README.md --exclude old_markdown_files/ -czvf website.tar.gz ./
 
 # clean it out
 clean:
