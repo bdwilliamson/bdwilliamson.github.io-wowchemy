@@ -7,4 +7,4 @@ University of Washington
 Seattle, Washington 98195  
 
 Email: ![](email.png)  
-Web: [https://brianwilliamson.com](https://brianwilliamson.com)
+Web: [https://bdwilliamson.github.io](https://bdwilliamson.github.io)
