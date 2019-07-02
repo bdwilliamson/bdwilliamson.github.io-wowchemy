@@ -2,9 +2,13 @@ name: "Brian D. Williamson"
 output_dir: "."
 navbar:
   title: "Brian D. Williamson"
-  left: 
+  left:
     - text: "Research"
       href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Software"
+      href: software.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
@@ -15,4 +19,4 @@ navbar:
 output:
   html_document:
     theme: paper
-    css: './sakura.css'
+css: './sakura.css'

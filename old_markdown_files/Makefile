@@ -15,13 +15,14 @@ endif
 
 # create htmls
 all: $(HTML)
-    
+	
 %.html: %.md
-    Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
+	pandoc -s --metadata ./_site.yml -c ./sakura.css -toc --from markdown --to html $< -o $@
+
 # create tarball
 tar: $(MARKDOWN)
-    tar --exclude=jemdoc_version/ --exclude=eqs/ --exclude=.git/ --exclude=non_yet_published.txt --exclude=README.md --exclude old_markdown_files/ -czvf website.tar.gz ./
+	tar --exclude=jemdoc_version/ --exclude=eqs/ --exclude=.git/ --exclude=non_yet_published.txt --exclude=README.md --exclude old_markdown_files/ -czvf website.tar.gz ./
 
 # clean it out
 clean:
-    rm $(HTML)
+	rm $(HTML)

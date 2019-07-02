@@ -1,7 +1,3 @@
----
-
----
-
 # Contact
 
 Brian Williamson  

@@ -1,7 +1,3 @@
----
-
----
-
 # Home
 
 ![](./images/grad_photo_straight_medium.jpg)

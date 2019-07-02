@@ -1,7 +1,3 @@
----
-
----
-
 # Research
 
 ![ROC curves for a proposed VRC01 neutralization sensitivity predictor. Inset: 3D structure of the HIV Envelope protein with colored areas based on identified important features and groups. Please see below, under "Broadly neutralizing antibodies", for more detail.](./images/ROC_curve_with_Env_inset_v2.png)

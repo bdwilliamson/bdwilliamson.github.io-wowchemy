@@ -2,3 +2,5 @@ README.html
 
 *.txt
 *.tif
+.Rproj.user
+*.Rproj
