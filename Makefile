@@ -17,7 +17,7 @@ endif
 all: $(HTML)
 	
 %.html: %.md
-	pandoc -s --metadata ./_site.yml -c ./sakura.css --from markdown --to html $< -o $@
+	pandoc -s --metadata ./_site.yml -c ./sakura.css -toc --from markdown --to html $< -o $@
 
 # create tarball
 tar: $(MARKDOWN)
