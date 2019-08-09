@@ -1,0 +1,10 @@
+---
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+# University of Washington
+
+* [Regression methods course for undergraduates](https://github.com/bdwilliamson/biostat311) (BIOST 311) 
