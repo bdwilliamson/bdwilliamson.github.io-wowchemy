@@ -1,0 +1,39 @@
+# jemdoc: menu{MENU}{research.html}
+= Research
+I am interested in problems of high-dimensional data, data science, and statistical inference. In particular, I enjoy working on developing new methodology for addressing scientific questions using large and complex datasets, and appropriately quantifying uncertainty in our resulting estimates. I also enjoy working on problems involving how best to tell a story using data. I have been primarily motivated by applications in public health and medicine, but I am always open to collaborations on interesting problems in any area of research.
+
+To date, I have been mostly focused on developing a novel method for assessing variable importance nonparametrically with Marco Carone, PhD and Noah Simon, PhD. We leverage tools from both machine learning and targeted learning to efficiently estimate a statistical parameter of interest, while providing appropriate estimates of our uncertainty. 
+
+Vaccine efficacy trials often provide preliminary evidence of risk factors that predict vaccine efficacy. Recent advances in machine learning technology have simplified the process of developing high-performance predictive models. Rigorously evaluating immune correlates of risk and of protection involves both efficiently estimating the importance of features in predicting vaccine efficacy and hypothesis testing to investigate the proposed correlates. To date, rigorous statistical methods for efficient estimation of and valid inference for feature importance are lacking when flexible methods are used in prediction. In my dissertation I develop statistical methods to enable more efficient use of vaccine trial data to discover novel relationships between vaccines and disease, yielding a deeper understanding of how to develop better vaccine candidates and where to deploy existing vaccines.
+
+== Functional estimation
+~~~
+{}{img_left}{functional.png}{Example functional with model space}{300px}{200px}
+One important aspect of my personal approach to data analysis is defining the statistical parameter of interest as a functional of the data generating mechanism. For example, if you describe the probability distribution your data follows (for example, your binary data follow a Bernoulli distribution with a given success probability), I should be able to give you a value of the parameter of interest under this distribution.
+~~~
+
+=== Nonparametric variable importance assessment
+~~~
+{}{img_left}{heart_separate_std_onestep.png}{Sample variable importance estimates for heart disease data}{480px}{480px}
+Imagine that you are an infectious disease researcher that has just completed an efficacy trial for a new vaccine. Studying those participants randomized to receive the vaccine who still contracted the disease and quantifying the importance of certain features (e.g., age, geographic location, blood concentration of specific antibodies), and quantifying our uncertainty about these estimates, gives us insight into how the vaccine works.
+
+This work is focused on developing a statistical functional that defines variable importance for a single feature or group of features as an inherent property of the data generating mechanism, and then developing an estimation procedure that allows the user to estimate the conditional mean flexibly but still have an efficient estimator of the true variable importance with valid confidence intervals for the true importance.
+
+[http://biostats.bepress.com/uwbiostat/paper422/ preprint] | [https://github.com/bdwilliamson/vimp R] | [https://github.com/bdwilliamson/vimpy Python] | [https://briandwilliamson.tumblr.com video and technical slides]
+~~~
+
+== Microbiome
+
+
+
+== HIV/AIDS 
+
+I work in both HIV prevention and vaccines research. I have been involved in two international clinical trials, the HIV Prevention Trials Network (HPTN) trials 063 and 068; I also am involved in statistical methods research. 
+
+# === add in stuff about AMP
+
+=== Adaptive non-inferiority trials
+
+Non-inferiority trials are often conducted to assess the efficacy of a new intervention when it is not ethical (or feasible) to randomize patients to a true placebo. Non-inferiority trials, then, often randomize patients to the experimental intervention or a standard-of-care intervention. The assumption often made in these trials is that the study participants in the standard-of-care arm of the non-inferiority trial are "similar" to the study participants in the arm of the original placebo-controlled trials of the standard-of-care intervention. However, this assumption may not be reasonable -- in the HIV prevention setting, we observed a certain level of adherence to pre-exposure prophylaxis (PrEP) in the initial placebo-controlled trials testing the efficacy of PrEP, but we may not observe this same level of adherence to PrEP in a different setting (especially now that PrEP is heavily marketed in some countries). With Brett Hanscom, Jim Hughes, and Deborah Donnell, I helped to develop a statistical method for rigorously adapting a non-inferiority trial based on observed characteristics of the standard-of-care arm. This work may be used in a secondary analysis of the clinical trial to assess the results under departures from assumptions used to design the trial.
+
+[http://biostats.bepress.com/uwbiostat/paper417/ preprint] | [http://journals.sagepub.com/doi/full/10.1177/0962280218801134 journal article] 
