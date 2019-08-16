@@ -3,11 +3,17 @@ output_dir: "."
 navbar:
   title: "Brian D. Williamson"
   left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
     - text: "Research"
+      icon: fa-flask
       href: research.html
     - text: "Teaching"
+      icon: fa-chalkboard
       href: teaching.html
     - text: "Software"
+      icon: fa-file-code
       href: software.html
   right:
     - icon: fa-envelope fa-lg
