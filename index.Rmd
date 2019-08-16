@@ -1,5 +1,8 @@
 ---
 title: "About me"
+output: 
+  html_document:
+    css: style.scss
 ---
 
 ![](./images/grad_photo_straight_medium.jpg)

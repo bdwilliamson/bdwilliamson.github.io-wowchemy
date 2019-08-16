@@ -1,5 +1,8 @@
 ---
 title: "Contact"
+output: 
+  html_document:
+    css: style.scss
 ---
 
 Brian Williamson  
