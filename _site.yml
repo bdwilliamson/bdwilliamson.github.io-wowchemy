@@ -25,5 +25,4 @@ navbar:
 output:
   html_document:
     theme: paper
-    css: style.scss
     lib_dir: site_libs
