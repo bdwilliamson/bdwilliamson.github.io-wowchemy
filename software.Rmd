@@ -10,6 +10,8 @@ output:
 
 vimp: [development](https://github.com/bdwilliamson/vimp) | [CRAN](https://CRAN.R-project.org/package=vimp)  
 
+paramedic: [development](https://github.com/statdivlab/paramedic)
+
 # Python software
 
 vimpy: [development](https://github.com/bdwilliamson/vimpy) | [PyPI](https://pypi.org/project/vimpy/)
