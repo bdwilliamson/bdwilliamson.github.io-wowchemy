@@ -44,6 +44,12 @@ The broadly neutralizing antibody VRC01, developed by the Vaccine Research Cente
           
 We are currently working on extending the methods used for the VRC01 analysis to combinations of antibodies -- a prevention strategy involving multiple bnAbs is likely to be much more effective than a strategy with a single bnAb. Both projects are joint work with [Craig Magaret](https://www.linkedin.com/in/camagaret/), [David Benkeser](https://www.benkeserstatistics.com/#!), Peter Gilbert, and others.
 
+### Correlates of risk and protection
+
+While we do not yet have a broadly efficacious vaccine against HIV-1, clinical trials of HIV-1 vaccine candidates can identify potential correlates of risk or of protection. These correlates are measurable signs that a person is at risk of or is protected from infection by HIV-1, respectively. In this work, I collaborated with Peter Gilbert and others affiliated with the [HIV Vaccine Trials Network](https://www.hvtn.org/en.html) to analyze data from the [HVTN 505](https://www.hvtn.org/en/community/community-compass/vol19-issue1/hvtn-505-recap.html) clinical trial. We identified three antibody features that inversely correlated with HIV-1 infection risk. This may help in designing future HIV-1 vaccines.
+
+[journal](https://doi.org/10.1172/JCI126391) | [commentary](https://doi.org/10.1172/JCI132535) | [Fred Hutchinson Cancer Research Center Science Spotlight](https://www.fredhutch.org/en/news/spotlight/2019/11/neidich_vidd_jci.html)
+
 ## HIV prevention
 
 ### Characteristics associated with HIV risk
