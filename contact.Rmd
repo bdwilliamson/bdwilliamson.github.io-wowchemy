@@ -5,10 +5,17 @@ output:
 ---
 
 Brian Williamson  
-Health Sciences Building F-600  
-Department of Biostatistics  
-University of Washington  
-Seattle, Washington 98195  
 
-Email: ![](./images/email.png)  
+Biostatistics, Bioinformatics, and Epidemiology (BBE)
+
+Vaccine and Infectious Diseases Division (VIDD)
+
+Fred Hutchinson Cancer Research Center
+
+1100 Fairview Avenue North, Mail Stop M2-C200
+
+Seattle, Washington 98109
+
+Email: ![](./images/fredhutch_email.png)  
+
 Web: [https://bdwilliamson.github.io](https://bdwilliamson.github.io)
