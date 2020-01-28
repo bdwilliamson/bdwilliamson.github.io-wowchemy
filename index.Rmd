@@ -6,6 +6,8 @@ output:
 
 ![](./images/grad_photo_straight_medium.jpg)
 
+Pronouns: he/him/his
+
 I'm currently a postdoctoral fellow in the [Vaccine and Infectious Disease Division](https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html) at [Fred Hutch](https://www.fredhutch.org/en.html), where I work with [Ying Huang](https://www.fredhutch.org/en/faculty-lab-directory/huang-ying.html). 
 
 I completed my doctoral studies in [Biostatistics](https://www.biostat.washington.edu/) at the [University of Washington](https://www.washington.edu/) under the guidance of [Marco Carone](http://faculty.washington.edu/mcarone/about.html) and [Noah Simon](http://faculty.washington.edu/nrsimon/).

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -234,6 +233,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -245,18 +245,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -347,7 +335,11 @@ $(document).ready(function () {
 </div>
 
 
-<p><img src="images/grad_photo_straight_medium.jpg" /></p>
+<div class="figure">
+<img src="images/grad_photo_straight_medium.jpg" />
+
+</div>
+<p>Pronouns: he/him/his</p>
 <p>I’m currently a postdoctoral fellow in the <a href="https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html">Vaccine and Infectious Disease Division</a> at <a href="https://www.fredhutch.org/en.html">Fred Hutch</a>, where I work with <a href="https://www.fredhutch.org/en/faculty-lab-directory/huang-ying.html">Ying Huang</a>.</p>
 <p>I completed my doctoral studies in <a href="https://www.biostat.washington.edu/">Biostatistics</a> at the <a href="https://www.washington.edu/">University of Washington</a> under the guidance of <a href="http://faculty.washington.edu/mcarone/about.html">Marco Carone</a> and <a href="http://faculty.washington.edu/nrsimon/">Noah Simon</a>.</p>
 <p>For more information about my research, check out my <a href="research.html">Research Page</a>. My full cv is available <a href="cv.html">here</a>.</p>
@@ -369,6 +361,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
