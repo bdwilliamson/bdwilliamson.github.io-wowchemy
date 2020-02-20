@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -88,7 +88,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -237,6 +236,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -249,48 +249,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -304,6 +265,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -446,16 +413,21 @@ div.tocify {
 
 <p>I am interested in problems of high-dimensional data, data science, and statistical inference. In particular, I enjoy working on developing new methodology for addressing scientific questions using large and complex datasets, and appropriately quantifying uncertainty in the resulting estimates. I also enjoy working on problems involving how best to tell a story using data. I have been primarily motivated by applications in public health and medicine, but I am always open to collaborations on interesting problems in any area of research.</p>
 <p>To date, I have been primarily focused on developing a model-agnostic measure of variable importance. This allows estimates of importance to be compared across different machine learning algorithms. The work develops a rigorous framework for estimating and performing valid statistical inference on the true importance. While the procedure is broadly applicable, one area in which we have employed the procedure is the study of vaccine efficacy. Our proposed approach allows investigators to use state-of-the-art machine learning tools to estimate important variables for predicting when a vaccine is effective. This, in turn, may help to more quickly develop new candidate vaccines for a range of diseases.</p>
+<p>For a complete list of my scholarly works, please see my <a href="https://scholar.google.com/citations?user=k4RWx44AAAAJ&amp;hl=en">Google Scholar page</a>.</p>
+<div style="text-align: center">
+<figure>
+<img src="images/ROC_curve_with_Env_inset_v2.png" alt="ROC curves and important amino acid sequence positions for a proposed VRC01 neutralization sensitivity predictor." width="400" height="400" />
+<figcaption>
+ROC curves for a proposed VRC01 neutralization sensitivity predictor. Inset: 3D structure of the HIV Envelope protein with colored areas based on identified important features and groups using our proposed variable importance measure. Please see below, under “Broadly neutralizing antibodies”, for more detail.
+</figcaption>
+</figure>
+</div>
 <div id="statistical-methods" class="section level1">
 <h1>Statistical methods</h1>
 <div id="variable-importance" class="section level2">
 <h2>Variable importance</h2>
 <p>It is often of interest to understand the population interplay between the outcome and measured covariates. Variable importance is a useful tool towards this goal. Examples include: HIV vaccine studies, correlates of risk analyses, and identifying patients at high risk of returning to a hospital after discharge for heart failure. This is joint work with <a href="http://faculty.washington.edu/mcarone/about.html">Marco Carone</a>, <a href="https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html">Peter Gilbert</a>, and <a href="http://faculty.washington.edu/nrsimon/">Noah Simon</a>.</p>
 <p><a href="http://biostats.bepress.com/uwbiostat/paper422/">preprint</a> | <a href="https://github.com/bdwilliamson/vimp">R (GitHub)</a> | <a href="https://CRAN.R-project.org/package=vimp">R (CRAN)</a> | <a href="https://github.com/bdwilliamson/vimpy">Python (GitHub)</a> | <a href="https://pypi.org/project/vimpy/">Python (PyPI)</a> | <a href="https://briandwilliamson.tumblr.com">video and technical slides</a></p>
-<div class="figure">
-<img src="images/ROC_curve_with_Env_inset_v2.png" alt="ROC curves for a proposed VRC01 neutralization sensitivity predictor. Inset: 3D structure of the HIV Envelope protein with colored areas based on identified important features and groups using our proposed variable importance measure. Please see below, under “Broadly neutralizing antibodies”, for more detail." />
-<p class="caption">ROC curves for a proposed VRC01 neutralization sensitivity predictor. Inset: 3D structure of the HIV Envelope protein with colored areas based on identified important features and groups using our proposed variable importance measure. Please see below, under “Broadly neutralizing antibodies”, for more detail.</p>
-</div>
 </div>
 <div id="estimating-microbial-abundance" class="section level2">
 <h2>Estimating microbial abundance</h2>
@@ -525,6 +497,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
