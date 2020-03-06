@@ -1,7 +1,7 @@
-name: "Brian D. Williamson"
+name: "Brian D. Williamson, PhD"
 output_dir: "."
 navbar:
-  title: "Brian D. Williamson"
+  title: "Brian D. Williamson, PhD"
   left:
     - text: "Home"
       icon: fa-home
