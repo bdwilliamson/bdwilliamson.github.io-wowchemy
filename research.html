@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -88,6 +88,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -236,7 +237,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -249,9 +249,48 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <style type="text/css">
 
@@ -265,12 +304,6 @@ $(document).ready(function () {
 }
 }
 
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
 
 .toc-content {
   padding-left: 30px;
@@ -345,7 +378,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Brian D. Williamson</a>
+      <a class="navbar-brand" href="index.html">Brian D. Williamson, PhD</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -414,30 +447,46 @@ div.tocify {
 <p>I am interested in problems of high-dimensional data, data science, and statistical inference. In particular, I enjoy working on developing new methodology for addressing scientific questions using large and complex datasets, and appropriately quantifying uncertainty in the resulting estimates. I also enjoy working on problems involving how best to tell a story using data. I have been primarily motivated by applications in public health and medicine, but I am always open to collaborations on interesting problems in any area of research.</p>
 <p>To date, I have been primarily focused on developing a model-agnostic measure of variable importance. This allows estimates of importance to be compared across different machine learning algorithms. The work develops a rigorous framework for estimating and performing valid statistical inference on the true importance. While the procedure is broadly applicable, one area in which we have employed the procedure is the study of vaccine efficacy. Our proposed approach allows investigators to use state-of-the-art machine learning tools to estimate important variables for predicting when a vaccine is effective. This, in turn, may help to more quickly develop new candidate vaccines for a range of diseases.</p>
 <p>For a complete list of my scholarly works, please see my <a href="https://scholar.google.com/citations?user=k4RWx44AAAAJ&amp;hl=en">Google Scholar page</a>.</p>
-<div style="text-align: center">
-<figure>
-<img src="images/ROC_curve_with_Env_inset_v2.png" alt="ROC curves and important amino acid sequence positions for a proposed VRC01 neutralization sensitivity predictor." width="400" height="400" />
-<figcaption>
-ROC curves for a proposed VRC01 neutralization sensitivity predictor. Inset: 3D structure of the HIV Envelope protein with colored areas based on identified important features and groups using our proposed variable importance measure. Please see below, under “Broadly neutralizing antibodies”, for more detail.
-</figcaption>
-</figure>
-</div>
 <div id="statistical-methods" class="section level1">
 <h1>Statistical methods</h1>
 <div id="variable-importance" class="section level2">
 <h2>Variable importance</h2>
 <p>It is often of interest to understand the population interplay between the outcome and measured covariates. Variable importance is a useful tool towards this goal. Examples include: HIV vaccine studies, correlates of risk analyses, and identifying patients at high risk of returning to a hospital after discharge for heart failure. This is joint work with <a href="http://faculty.washington.edu/mcarone/about.html">Marco Carone</a>, <a href="https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html">Peter Gilbert</a>, and <a href="http://faculty.washington.edu/nrsimon/">Noah Simon</a>.</p>
 <p><a href="http://biostats.bepress.com/uwbiostat/paper422/">preprint</a> | <a href="https://github.com/bdwilliamson/vimp">R (GitHub)</a> | <a href="https://CRAN.R-project.org/package=vimp">R (CRAN)</a> | <a href="https://github.com/bdwilliamson/vimpy">Python (GitHub)</a> | <a href="https://pypi.org/project/vimpy/">Python (PyPI)</a> | <a href="https://briandwilliamson.tumblr.com">video and technical slides</a></p>
+<div style="text-align: center">
+<figure>
+<img src="images/vim_1_fig.png" alt="Estimated variable importance on the South African heart disease study data." width="400" height="400" />
+<figcaption>
+Estimated variable importance using the proposed estimator and data from the South African heart disease study.
+</figcaption>
+</figure>
+</div>
 </div>
 <div id="estimating-microbial-abundance" class="section level2">
 <h2>Estimating microbial abundance</h2>
 <p>In this work, we propose a statistical method for combining inexpensive (but often lower-quality) estimates of relative abundance (e.g., collected using universal primers for the 16S rRNA gene) and higher quality (but often expensive) estimates of absolute abundance (e.g., from quantitative PCR) to estimate absolute abundance of all taxa. Crucially, our proposal accounts for differences in the efficiency of taxon detection in the relative and absolute abundance data. This is joint work with <a href="http://faculty.washington.edu/jphughes/">Jim Hughes</a> and <a href="http://statisticaldiversitylab.com/team/amy-willis">Amy Willis</a>.</p>
 <p><a href="https://biorxiv.org/cgi/content/short/761486v1">preprint</a> | <a href="https://github.com/statdivlab/paramedic">GitHub</a></p>
+<div style="text-align: center">
+<figure>
+<img src="images/paramedic_sim_fig.png" alt="Performance of proposed estimator of absolute abundance." width="400" height="400" />
+<figcaption>
+Proposed estimator of relative abundance that allows for potentially varying efficiencies (“proposed, ve”) versus a simple model that does not allow for varying efficiencies (“proposed, no ve”) and a naive model (“naive”).
+</figcaption>
+</figure>
+</div>
 </div>
 <div id="clinical-trials" class="section level2">
 <h2>Clinical trials</h2>
 <p>In settings where it is not ethical to perform a classical placebo-controlled trial, new interventions must be evaluated against the standard of care. Non-inferiority trials are often used to evaluate new interventions in this context. Here, the goal is for the experimental intervention to be “not unacceptably worse” than the standard of care, so that there are an increased number of viable intervention options. A common assumption in non-inferiority trials is that the active control population (typically receiving standard of care) is similar to the populations in prior placebo-controlled randomized trials. However, if characteristics in the current trial differ from previous trials – for example, adherence to the active control regimen is lesser or greater than planned – then the chance of a false positive result (type I error) or a false negative result (type II error) can be different than planned. In this work, we proposed a method for rigorously adapting a non-inferiority trial based on observed characteristics of the active control participants. This is joint work with <a href="https://www.fredhutch.org/en/labs/profiles/donnell-deborah.html">Deborah Donnell</a>, <a href="https://www.fredhutch.org/en/labs/profiles/hanscom-brett.html">Brett Hanscom</a>, and Jim Hughes.</p>
 <p><a href="https://journals.sagepub.com/doi/10.1177/0962280218801134#">journal</a> | <a href="https://www.ncbi.nlm.nih.gov/pubmed/30293490">PubMed</a></p>
+<div style="text-align: center">
+<figure>
+<img src="images/adaptive_ni_margins_fig.jpg" alt="Changes to estimated effectiveness of the experimental therapy under different assumptions." width="600" height="400" />
+<figcaption>
+Changes to estimated effectiveness of the experimental therapy under different assumptions about the effectiveness of the active control therapy.
+</figcaption>
+</figure>
+</div>
 </div>
 </div>
 <div id="collaborative-science" class="section level1">
@@ -449,11 +498,27 @@ ROC curves for a proposed VRC01 neutralization sensitivity predictor. Inset: 3D 
 <p>The broadly neutralizing antibody VRC01, developed by the Vaccine Research Center of the National Institute of Allergy and Infectious Diseases, is currently being evaluated in the <a href="https://ampstudy.org/">Antibody Mediated Prevention</a> study (AMP). While the primary goal of AMP is to assess the preventative efficacy of VRC01, a key secondary goal is to determine if this efficacy differs based on characteristics of the HIV virus. There are many possible locations on the HIV genome that we might be interested in; if we simply did a statistical test for association at each possible location, and then appropriately accounted for this multiple testing, then we would have low power to detect effects. To prepare for AMP, we used data on HIV viruses from the <a href="https://www.hiv.lanl.gov/components/sequence/HIV/neutralization/main.comp">Compile, Neutralize, and Tally NAb Panels</a> database. Our goals were to: (i) develop a score that performed well for predicting whether or not an HIV virus was sensitive to neutralization by VRC01, and (ii) to identify groups of HIV genome features that were important in predicting neutralization sensitivity.</p>
 <p><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006952">journal</a> | <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Prediction+of+VRC01+neutralization+sensitivity+by+HIV-1+gp160+sequence+features">PubMed</a> | <a href="https://github.com/benkeser/vrc01">GitHub</a> | <a href="https://www.fredhutch.org/en/news/spotlight/2019/05/vidd_magaret_ploscompbio.html">Fred Hutchinson Cancer Research Center Science Spotlight</a></p>
 <p>We are currently working on extending the methods used for the VRC01 analysis to combinations of antibodies – a prevention strategy involving multiple bnAbs is likely to be much more effective than a strategy with a single bnAb. Both projects are joint work with <a href="https://www.linkedin.com/in/camagaret/">Craig Magaret</a>, <a href="https://www.benkeserstatistics.com/#!">David Benkeser</a>, Peter Gilbert, and others.</p>
+<div style="text-align: center">
+<figure>
+<img src="images/vrc01_fig.png" alt="ROC curves and important amino acid sequence positions for a proposed VRC01 neutralization sensitivity predictor." width="400" height="400" />
+<figcaption>
+ROC curves for a proposed VRC01 neutralization sensitivity predictor. Inset: 3D structure of the HIV Envelope protein with colored areas based on identified important features and groups using our proposed variable importance measure.
+</figcaption>
+</figure>
+</div>
 </div>
 <div id="correlates-of-risk-and-protection" class="section level3">
 <h3>Correlates of risk and protection</h3>
 <p>While we do not yet have a broadly efficacious vaccine against HIV-1, clinical trials of HIV-1 vaccine candidates can identify potential correlates of risk or of protection. These correlates are measurable signs that a person is at risk of or is protected from infection by HIV-1, respectively. In this work, I collaborated with Peter Gilbert and others affiliated with the <a href="https://www.hvtn.org/en.html">HIV Vaccine Trials Network</a> to analyze data from the <a href="https://www.hvtn.org/en/community/community-compass/vol19-issue1/hvtn-505-recap.html">HVTN 505</a> clinical trial. We identified three antibody features that inversely correlated with HIV-1 infection risk. This may help in designing future HIV-1 vaccines.</p>
 <p><a href="https://doi.org/10.1172/JCI126391">journal</a> | <a href="https://doi.org/10.1172/JCI132535">commentary</a> | <a href="https://www.fredhutch.org/en/news/spotlight/2019/11/neidich_vidd_jci.html">Fred Hutchinson Cancer Research Center Science Spotlight</a></p>
+<div style="text-align: center">
+<figure>
+<img src="images/hvtn505_fig.png" alt="Estimated variable importance of immune response marker sets measured at 7 months after vaccination." width="400" height="400" />
+<figcaption>
+Estimated variable importance (relative to baseline risk variables) of immune response marker sets measured at 7 months after vaccination. Abbreviations: Ab = antibody, Fx = functional.
+</figcaption>
+</figure>
+</div>
 </div>
 </div>
 <div id="hiv-prevention" class="section level2">
@@ -475,6 +540,14 @@ ROC curves for a proposed VRC01 neutralization sensitivity predictor. Inset: 3D 
 <h3>Optimizing cancer treatment strategies using single-cell data</h3>
 <p>In this work, our goal was to develop an algorithm for optimally assigning patients to cancer treatment strategies. We leveraged data from single-cell mass cytometry to: automatically determine subpopulations of cells; create a nested effects model to infer gene hierarchy based on perturbation effects due to administered drugs; and create a scoring and ranking algorithm that identifies the minimal number of drugs among a combination of drugs with teh maximal desired intracellular effects. This is joint work with <a href="http://med.stanford.edu/plevritis.html">Sylvia Plevritis</a>, <a href="http://med.stanford.edu/plevritis.html/People">Benedict Anchang</a>, and others.</p>
 <p><a href="https://www.pnas.org/content/115/18/E4294">journal</a> | <a href="https://www.pnas.org/content/pnas/115/18/E4294.full.pdf">pdf</a></p>
+<div style="text-align: center">
+<figure>
+<img src="images/drug_nem_fig.png" alt="Patient-specific optimal drug combination predictions by DRUG-NEM." width="400" height="400" />
+<figcaption>
+Distribution plot showing the patient-specific optimal drug combination predictions by DRUG-NEM. The single dominant two-drug strategy (BEZ + Das) for 60% of patients may not be optimal for all patients.
+</figcaption>
+</figure>
+</div>
 </div>
 </div>
 </div>
@@ -497,49 +570,6 @@ $(document).ready(function () {
 });
 
 
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
