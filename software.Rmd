@@ -8,7 +8,7 @@ output:
 
 # R software
 
-vimp: [Docs] (https://bdwilliamson.github.io/vimp/)| [GitHub](https://github.com/bdwilliamson/vimp) | [CRAN](https://CRAN.R-project.org/package=vimp)  
+vimp: [Docs](https://bdwilliamson.github.io/vimp/)| [GitHub](https://github.com/bdwilliamson/vimp) | [CRAN](https://CRAN.R-project.org/package=vimp)  
 
 paramedic: [GitHub](https://github.com/statdivlab/paramedic) ![](./images/paramedic-logo.png){#id .class width=100px height=100px}
 
