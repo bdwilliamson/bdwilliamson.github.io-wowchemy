@@ -8,7 +8,7 @@ output:
 
 I am interested in problems of high-dimensional data, data science, and statistical inference. In particular, I enjoy working on developing new methodology for addressing scientific questions using large and complex datasets, and appropriately quantifying uncertainty in the resulting estimates. I also enjoy working on problems involving how best to tell a story using data. I have been primarily motivated by applications in public health and medicine, but I am always open to collaborations on interesting problems in any area of research.
 
-To date, I have been primarily focused on developing a model-agnostic measure of variable importance. This allows estimates of importance to be compared across different machine learning algorithms. The work develops a rigorous framework for estimating and performing valid statistical inference on the true importance. While the procedure is broadly applicable, one area in which we have employed the procedure is the study of vaccine efficacy. Our proposed approach allows investigators to use state-of-the-art machine learning tools to estimate important variables for predicting when a vaccine is effective. This, in turn, may help to more quickly develop new candidate vaccines for a range of diseases.
+To date, I have been primarily focused on developing an algorithm-agnostic measure of variable importance. This allows estimates of importance to be compared across different machine learning algorithms. The work develops a rigorous framework for estimating and performing valid statistical inference on the true importance. While the procedure is broadly applicable, one area in which we have employed the procedure is the study of vaccine efficacy. Our proposed approach allows investigators to use state-of-the-art machine learning tools to estimate important variables for predicting when a vaccine is effective. This, in turn, may help to more quickly develop new candidate vaccines for a range of diseases.
 
 For a complete list of my scholarly works, please see my [Google Scholar page](https://scholar.google.com/citations?user=k4RWx44AAAAJ&hl=en).
 
@@ -18,13 +18,30 @@ For a complete list of my scholarly works, please see my [Google Scholar page](h
 
 It is often of interest to understand the population interplay between the outcome and measured covariates. Variable importance is a useful tool towards this goal. Examples include: HIV vaccine studies, correlates of risk analyses, and identifying patients at high risk of returning to a hospital after discharge for heart failure. This is joint work with [Marco Carone](http://faculty.washington.edu/mcarone/about.html), [Peter Gilbert](https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html), and [Noah Simon](http://faculty.washington.edu/nrsimon/).
 
-[preprint](http://biostats.bepress.com/uwbiostat/paper422/) | [R (GitHub)](https://github.com/bdwilliamson/vimp) | [R (CRAN)](https://CRAN.R-project.org/package=vimp) | [Python (GitHub)](https://github.com/bdwilliamson/vimpy) | [Python (PyPI)](https://pypi.org/project/vimpy/) | [video and technical slides](https://briandwilliamson.tumblr.com)
+[R (GitHub)](https://github.com/bdwilliamson/vimp) | [R (CRAN)](https://CRAN.R-project.org/package=vimp) | [Python (GitHub)](https://github.com/bdwilliamson/vimpy) | [Python (PyPI)](https://pypi.org/project/vimpy/)
+
+In one project, we focus on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.
+
+[preprint](http://biostats.bepress.com/uwbiostat/paper422/) | [video and technical slides](https://briandwilliamson.tumblr.com)
 
 <div style="text-align: center">
 <figure>
  <img src="./images/vim_1_fig.png" alt="Estimated variable importance on the South African heart disease study data." width="400" height="400" />
  <figcaption>
  Estimated variable importance using the proposed estimator and data from the South African heart disease study.
+ </figcaption>
+</figure>
+</div>
+
+In a second project, we extend our approach to handle nonparametric extensions of many interesting measures, including the difference in classification accuracy, the difference in area under the receiver operating characteristic curve, and the difference in deviance. We also propose a test for the null hypothesis of zero importance that has proper type I error control.
+
+[preprint](https://arxiv.org/abs/2004.03683)
+
+<div style="text-align: center">
+<figure>
+ <img src="./images/vim_2_fig.png" alt="Estimated variable importance for predicting sensitivity of HIV-1 pseudoviruses to neutralization by a broadly neutralizing antibody." width="600" height="400" />
+ <figcaption>
+ Estimated variable importance for predicting sensitivity of HIV-1 pseudoviruses to neutralization by a broadly neutralizing antibody.
  </figcaption>
 </figure>
 </div>
