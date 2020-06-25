@@ -453,7 +453,7 @@ div.tocify {
 <h2>Variable importance</h2>
 <p>It is often of interest to understand the population interplay between the outcome and measured covariates. Variable importance is a useful tool towards this goal. Examples include: HIV vaccine studies, correlates of risk analyses, and identifying patients at high risk of returning to a hospital after discharge for heart failure. This is joint work with <a href="http://faculty.washington.edu/mcarone/about.html">Marco Carone</a>, <a href="https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html">Peter Gilbert</a>, and <a href="http://faculty.washington.edu/nrsimon/">Noah Simon</a>.</p>
 <p><a href="https://github.com/bdwilliamson/vimp">R (GitHub)</a> | <a href="https://CRAN.R-project.org/package=vimp">R (CRAN)</a> | <a href="https://github.com/bdwilliamson/vimpy">Python (GitHub)</a> | <a href="https://pypi.org/project/vimpy/">Python (PyPI)</a></p>
-<p>In one project, we focus on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.</p>
+<p>We first focused on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.</p>
 <p><a href="http://biostats.bepress.com/uwbiostat/paper422/">preprint</a> | <a href="https://briandwilliamson.tumblr.com">video and technical slides</a></p>
 <div style="text-align: center">
 <figure>
@@ -463,7 +463,7 @@ Estimated variable importance using the proposed estimator and data from the Sou
 </figcaption>
 </figure>
 </div>
-<p>In a second project, we extend our approach to handle nonparametric extensions of many interesting measures, including the difference in classification accuracy, the difference in area under the receiver operating characteristic curve, and the difference in deviance. We also propose a test for the null hypothesis of zero importance that has proper type I error control.</p>
+<p>Next, we extended our approach to handle nonparametric extensions of many interesting measures, including the difference in classification accuracy, the difference in area under the receiver operating characteristic curve, and the difference in deviance. We also propose a test for the null hypothesis of zero importance that has proper type I error control.</p>
 <p><a href="https://arxiv.org/abs/2004.03683">preprint</a></p>
 <div style="text-align: center">
 <figure>
@@ -473,6 +473,8 @@ Estimated variable importance for predicting sensitivity of HIV-1 pseudoviruses 
 </figcaption>
 </figure>
 </div>
+<p>Next, <a href="http://students.washington.edu/jeanfeng/">Jean Feng</a> and I extended this approach further by tying together developments in the Shapley value literature in both game theory and machine learning. We propose a computationally efficient procedure that solves the issue that the classical Shapley values require estimating <span class="math inline">\(2^p\)</span> regression functions (in a problem with <span class="math inline">\(p\)</span> variables).</p>
+<p><a href="https://arxiv.org/abs/2006.09481">preprint</a></p>
 </div>
 <div id="estimating-microbial-abundance" class="section level2">
 <h2>Estimating microbial abundance</h2>
@@ -507,9 +509,10 @@ Changes to estimated effectiveness of the experimental therapy under different a
 <h2>HIV vaccines</h2>
 <div id="broadly-neutralizing-antibodies" class="section level3">
 <h3>Broadly neutralizing antibodies</h3>
-<p>The broadly neutralizing antibody VRC01, developed by the Vaccine Research Center of the National Institute of Allergy and Infectious Diseases, is currently being evaluated in the <a href="https://ampstudy.org/">Antibody Mediated Prevention</a> study (AMP). While the primary goal of AMP is to assess the preventative efficacy of VRC01, a key secondary goal is to determine if this efficacy differs based on characteristics of the HIV virus. There are many possible locations on the HIV genome that we might be interested in; if we simply did a statistical test for association at each possible location, and then appropriately accounted for this multiple testing, then we would have low power to detect effects. To prepare for AMP, we used data on HIV viruses from the <a href="https://www.hiv.lanl.gov/components/sequence/HIV/neutralization/main.comp">Compile, Neutralize, and Tally NAb Panels</a> database. Our goals were to: (i) develop a score that performed well for predicting whether or not an HIV virus was sensitive to neutralization by VRC01, and (ii) to identify groups of HIV genome features that were important in predicting neutralization sensitivity.</p>
+<p>The broadly neutralizing antibody VRC01, developed by the Vaccine Research Center of the National Institute of Allergy and Infectious Diseases, is currently being evaluated in the <a href="https://ampstudy.org/">Antibody Mediated Prevention</a> study (AMP). While the primary goal of AMP is to assess the preventative efficacy of VRC01, a key secondary goal is to determine if this efficacy differs based on characteristics of the HIV virus. There are many possible locations on the HIV genome that we might be interested in; if we simply did a statistical test for association at each possible location, and then appropriately accounted for this multiple testing, then we would have low power to detect effects. To prepare for AMP, we used data on HIV viruses from the <a href="https://www.hiv.lanl.gov/components/sequence/HIV/neutralization/main.comp">Compile, Neutralize, and Tally NAb Panels</a> database. Our goals were to: (i) develop a score that performed well for predicting whether or not an HIV virus was sensitive to neutralization by VRC01, and (ii) to identify groups of HIV genome features that were important in predicting neutralization sensitivity. This project is joint work with <a href="https://www.linkedin.com/in/camagaret/">Craig Magaret</a>, <a href="https://www.benkeserstatistics.com/#!">David Benkeser</a>, Peter Gilbert, and others.</p>
 <p><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006952">journal</a> | <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Prediction+of+VRC01+neutralization+sensitivity+by+HIV-1+gp160+sequence+features">PubMed</a> | <a href="https://github.com/benkeser/vrc01">GitHub</a> | <a href="https://www.fredhutch.org/en/news/spotlight/2019/05/vidd_magaret_ploscompbio.html">Fred Hutch Science Spotlight</a></p>
-<p>We are currently working on extending the methods used for the VRC01 analysis to combinations of antibodies – a prevention strategy involving multiple bnAbs is likely to be much more effective than a strategy with a single bnAb. Both projects are joint work with <a href="https://www.linkedin.com/in/camagaret/">Craig Magaret</a>, <a href="https://www.benkeserstatistics.com/#!">David Benkeser</a>, Peter Gilbert, and others.</p>
+<p>We next extended the methods used for the VRC01 analysis to combinations of antibodies – a prevention strategy involving multiple bnAbs is likely to be much more effective than a strategy with a single bnAb. Sohail Nizam joined the team for this project. The software is implemented as a Docker container.</p>
+<p><a href="https://doi.org/10.1101/2020.06.23.167718">preprint</a> | <a href="https://github.com/benkeser/slapnap">GitHub</a> | <a href="https://hub.docker.com/r/slapnap/slapnap">DockerHub</a></p>
 <div style="text-align: center">
 <figure>
 <img src="images/vrc01_fig.png" alt="ROC curves and important amino acid sequence positions for a proposed VRC01 neutralization sensitivity predictor." width="400" height="400" />

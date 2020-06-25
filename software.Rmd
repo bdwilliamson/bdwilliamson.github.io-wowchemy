@@ -16,3 +16,9 @@ output:
 
 [![alt text](./images/vimpy_logo.png "vimpy logo"){#id .class width=100px height=100px}](https://github.com/bdwilliamson/vimpy) [GitHub](https://github.com/bdwilliamson/vimpy) | [PyPI](https://pypi.org/project/vimpy/)
 
+# General software
+
+[Super LeArner Prediction of NAb Panels (SLAPNAP)](https://github.com/benkeser/slapnap)
+[GitHub](https://github.com/benkeser/slapnap) |
+[DockerHub](https://hub.docker.com/r/slapnap/slapnap)
+
