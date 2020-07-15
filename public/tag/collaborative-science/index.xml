@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>collaborative-science | Brian D. Williamson, PhD</title>
+    <link>/tag/collaborative-science/</link>
+      <atom:link href="/tag/collaborative-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>collaborative-science</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Tue, 23 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>collaborative-science</title>
+      <link>/tag/collaborative-science/</link>
+    </image>
+    
+    <item>
+      <title>SLAPNAP (Super LeArner Predictions of NAb Panels)</title>
+      <link>/publication/preprint/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prediction of VRC01 neutralization sensitivity by HIV-1 gp160 sequence features</title>
+      <link>/publication/journal-article/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
