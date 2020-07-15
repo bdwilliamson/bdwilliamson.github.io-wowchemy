@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bdwilliamson.github.io/courses/biost311/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bdwilliamson.github.io/tag/biostatistics/</loc>
     <lastmod>2020-07-13T16:54:42-07:00</lastmod>
   </url>
@@ -135,16 +130,6 @@
   <url>
     <loc>https://bdwilliamson.github.io/talk/</loc>
     <lastmod>2020-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bdwilliamson.github.io/software/</loc>
-    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bdwilliamson.github.io/courses/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -349,6 +334,10 @@
   
   <url>
     <loc>https://bdwilliamson.github.io/author/et-al./</loc>
+  </url>
+  
+  <url>
+    <loc>https://bdwilliamson.github.io/post/</loc>
   </url>
   
 </urlset>
