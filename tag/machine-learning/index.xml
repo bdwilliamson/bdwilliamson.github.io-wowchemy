@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine-learning | Brian D. Williamson, PhD</title>
+    <link>https://bdwilliamson.github.io/tag/machine-learning/</link>
+      <atom:link href="https://bdwilliamson.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>machine-learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Mon, 13 Jul 2020 11:33:43 -0700</lastBuildDate>
+    <image>
+      <url>https://bdwilliamson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>machine-learning</title>
+      <link>https://bdwilliamson.github.io/tag/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>SLAPNAP: Super LeArner Predictions of Neutralizing Antibody Panels</title>
+      <link>https://bdwilliamson.github.io/publication/preprint/slapnap/</link>
+      <pubDate>Mon, 13 Jul 2020 11:33:43 -0700</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/preprint/slapnap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variable Importance</title>
+      <link>https://bdwilliamson.github.io/project/variable-importance/</link>
+      <pubDate>Mon, 13 Jul 2020 10:58:17 -0700</pubDate>
+      <guid>https://bdwilliamson.github.io/project/variable-importance/</guid>
+      <description>&lt;p&gt;It is often of interest to understand the population interplay between
+the outcome and measured covariates. Variable importance is a useful
+tool towards this goal. Examples include: HIV vaccine studies,
+correlates of risk analyses, and identifying patients at high risk of
+returning to a hospital after discharge for heart failure. This is joint
+work with 
+&lt;a href=&#34;http://faculty.washington.edu/mcarone/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marco
+Carone&lt;/a&gt;, 
+&lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter
+Gilbert&lt;/a&gt;, 
+&lt;a href=&#34;http://faculty.washington.edu/nrsimon/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noah Simon&lt;/a&gt;, and 
+&lt;a href=&#34;https://www.jeanfeng.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jean Feng&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Broadly Neutralizing Antibodies</title>
+      <link>https://bdwilliamson.github.io/project/bnabs/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/project/bnabs/</guid>
+      <description>&lt;p&gt;The broadly neutralizing antibody VRC01, developed by the Vaccine
+Research Center of the National Institute of Allergy and Infectious
+Diseases, is currently being evaluated in the 
+&lt;a href=&#34;https://ampstudy.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antibody Mediated
+Prevention&lt;/a&gt; study (AMP). While the primary goal
+of AMP is to assess the preventative efficacy of VRC01, a key secondary
+goal is to determine if this efficacy differs based on characteristics
+of the HIV virus. There are many possible locations on the HIV genome
+that we might be interested in; if we simply did a statistical test for
+association at each possible location, and then appropriately accounted
+for this multiple testing, then we would have low power to detect
+effects. To prepare for AMP, we used data on HIV viruses from the
+
+&lt;a href=&#34;https://www.hiv.lanl.gov/components/sequence/HIV/neutralization/main.comp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compile, Neutralize, and Tally NAb
+Panels&lt;/a&gt;
+database. Our goals were to: (i) develop a score that performed well for
+predicting whether or not an HIV virus was sensitive to neutralization
+by VRC01, and (ii) to identify groups of HIV genome features that were
+important in predicting neutralization sensitivity. This project is
+joint work with 
+&lt;a href=&#34;https://www.linkedin.com/in/camagaret/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Craig Magaret&lt;/a&gt;,
+
+&lt;a href=&#34;https://www.benkeserstatistics.com/#!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Benkeser&lt;/a&gt;, Peter Gilbert,
+and others.&lt;/p&gt;
+&lt;p&gt;We next extended the methods used for the VRC01 analysis to combinations
+of antibodies – a prevention strategy involving multiple bnAbs is likely
+to be much more effective than a strategy with a single bnAb. Sohail
+Nizam joined the team for this project. The software is implemented as a
+Docker container.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient nonparametric statistical inference on population feature importance using Shapley values</title>
+      <link>https://bdwilliamson.github.io/talk/icml2020/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/icml2020/</guid>
+      <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRzn61LwDFNvmu5TgDnxWMYitkzx_Dqz6NmQnM9_WsFxZHeNsubg0MF_EWvVqvSsyHpELiVLmL11vMR/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guiding HIV-1 antibody regimen down-selection and prevention efficacy trial design using machine learning</title>
+      <link>https://bdwilliamson.github.io/talk/hivde2020/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/hivde2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A unified approach for inference on algorithm-agnostic variable importance</title>
+      <link>https://bdwilliamson.github.io/publication/preprint/vim2/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/preprint/vim2/</guid>
+      <description>&lt;p&gt;In this work, we extended our approach from the R-squared variable importance measure to handle nonparametric extensions of many interesting measures, including the difference in classification accuracy, the difference in area under the receiver operating characteristic curve, and the difference in deviance. We also propose a test for the null hypothesis of zero importance that has proper type I error control.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A unified approach to nonparametric variable importance assessment</title>
+      <link>https://bdwilliamson.github.io/talk/jsm2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/jsm2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prediction of VRC01 neutralization sensitivity by HIV-1 gp160 sequence features</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/vrc01/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/vrc01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing variable importance nonparametrically using machine learning techniques</title>
+      <link>https://bdwilliamson.github.io/talk/colloquium2018/</link>
+      <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/colloquium2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing variable importance nonparametrically using machine learning techniques</title>
+      <link>https://bdwilliamson.github.io/talk/jsm2018/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/jsm2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonparametric variable importance using an augmented neural network with multi-task learning</title>
+      <link>https://bdwilliamson.github.io/publication/conference-paper/nnet/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/conference-paper/nnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonparametric variable importance using an augmented neural network with multi-task learning</title>
+      <link>https://bdwilliamson.github.io/talk/icml2018/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/icml2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonparametric variable importance assessment using machine learning techniques</title>
+      <link>https://bdwilliamson.github.io/publication/preprint/vim1/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/preprint/vim1/</guid>
+      <description>&lt;p&gt;We first focused on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assessing variable importance nonparametrically using machine learning techniques</title>
+      <link>https://bdwilliamson.github.io/talk/wnar2017/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/wnar2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

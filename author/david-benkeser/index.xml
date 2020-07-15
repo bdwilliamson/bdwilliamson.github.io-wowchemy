@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David Benkeser | Brian D. Williamson, PhD</title>
+    <link>https://bdwilliamson.github.io/author/david-benkeser/</link>
+      <atom:link href="https://bdwilliamson.github.io/author/david-benkeser/index.xml" rel="self" type="application/rss+xml" />
+    <description>David Benkeser</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Mon, 13 Jul 2020 11:33:43 -0700</lastBuildDate>
+    <image>
+      <url>https://bdwilliamson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>David Benkeser</title>
+      <link>https://bdwilliamson.github.io/author/david-benkeser/</link>
+    </image>
+    
+    <item>
+      <title>SLAPNAP: Super LeArner Predictions of Neutralizing Antibody Panels</title>
+      <link>https://bdwilliamson.github.io/publication/preprint/slapnap/</link>
+      <pubDate>Mon, 13 Jul 2020 11:33:43 -0700</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/preprint/slapnap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prediction of VRC01 neutralization sensitivity by HIV-1 gp160 sequence features</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/vrc01/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/vrc01/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

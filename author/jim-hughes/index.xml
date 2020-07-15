@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jim Hughes | Brian D. Williamson, PhD</title>
+    <link>https://bdwilliamson.github.io/author/jim-hughes/</link>
+      <atom:link href="https://bdwilliamson.github.io/author/jim-hughes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jim Hughes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Sun, 08 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bdwilliamson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Jim Hughes</title>
+      <link>https://bdwilliamson.github.io/author/jim-hughes/</link>
+    </image>
+    
+    <item>
+      <title>Estimating microbial abundance</title>
+      <link>https://bdwilliamson.github.io/publication/preprint/paramedic/</link>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/preprint/paramedic/</guid>
+      <description>&lt;p&gt;In this work, we propose a statistical method for combining inexpensive
+(but often lower-quality) estimates of relative abundance (e.g.,
+collected using universal primers for the 16S rRNA gene) and higher
+quality (but often expensive) estimates of absolute abundance (e.g.,
+from quantitative PCR) to estimate absolute abundance of all taxa.
+Crucially, our proposal accounts for differences in the efficiency of
+taxon detection in the relative and absolute abundance data. This is
+joint work with 
+&lt;a href=&#34;http://faculty.washington.edu/jphughes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jim Hughes&lt;/a&gt;
+and 
+&lt;a href=&#34;http://statisticaldiversitylab.com/team/amy-willis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amy Willis&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive non-inferiority margins under observable non-constancy</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/ni-margins/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/ni-margins/</guid>
+      <description>&lt;p&gt;In settings where it is not ethical to perform a classical
+placebo-controlled trial, new interventions must be evaluated against
+the standard of care. Non-inferiority trials are often used to evaluate
+new interventions in this context. Here, the goal is for the
+experimental intervention to be “not unacceptably worse” than the
+standard of care, so that there are an increased number of viable
+intervention options. A common assumption in non-inferiority trials is
+that the active control population (typically receiving standard of
+care) is similar to the populations in prior placebo-controlled
+randomized trials. However, if characteristics in the current trial
+differ from previous trials – for example, adherence to the active
+control regimen is lesser or greater than planned – then the chance of a
+false positive result (type I error) or a false negative result (type II
+error) can be different than planned. In this work, we proposed a method
+for rigorously adapting a non-inferiority trial based on observed
+characteristics of the active control participants. This is joint work
+with 
+&lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/donnell-deborah.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deborah
+Donnell&lt;/a&gt;,
+
+&lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/hanscom-brett.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brett
+Hanscom&lt;/a&gt;,
+and Jim Hughes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frequency and predictors of estimated HIV transmissions and bacterial STI acquisition among HIV‐positive patients in HIV care across three continents</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/hptn-063/</link>
+      <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/hptn-063/</guid>
+      <description>&lt;p&gt;HPTN 063 was a clinical trial that aimed to examine potential HIV
+transmissions and the frequency of bacterial sexually transmitted
+infection (STI) acquisition among an international group of HIV-positive
+individuals in HIV care. The long-term goal was to inform
+treatment-as-prevention programs and provide ways of evaluating the
+potential impact of such programs. We found that there were substantial
+numbers of both estimated HIV transmissions and STIs, despite sampling
+individuals in HIV care. This suggested that augmenting secondary
+prevention interventions may be a means to decrease HIV incidence. This
+is joint work with 
+&lt;a href=&#34;https://people.miami.edu/profile/sas436@miami.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Steven
+Safren&lt;/a&gt;, Jim Hughes,
+and others.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Characteristics of Age-Discordant Partnerships Associated With HIV Risk Among Young South African Women (HPTN 068)</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/hptn-068/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/hptn-068/</guid>
+      <description>&lt;p&gt;This study is based on data from the HIV Prevention Trials Network
+(HPTN) trial 068. In this work, we aimed to identify factors associated
+with age-discordant partnerships (one partner greater than 5 years older
+than the other) and examine the association between partner age
+discordance and HIV risk in young South African women. We found that a
+history of age-discordant partnerships is associated witih greater odds
+of reporting HIV risk factors. This is joint work with 
+&lt;a href=&#34;https://fmch.duke.edu/profile/tiarney-ritchwood&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tiarney
+Ritchwood&lt;/a&gt;, Jim Hughes,
+and others.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

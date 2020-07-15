@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Brian D. Williamson, PhD</title>
+    <link>https://bdwilliamson.github.io/publication-type/1/</link>
+      <atom:link href="https://bdwilliamson.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Sun, 15 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bdwilliamson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>1</title>
+      <link>https://bdwilliamson.github.io/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>Nonparametric variable importance using an augmented neural network with multi-task learning</title>
+      <link>https://bdwilliamson.github.io/publication/conference-paper/nnet/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/conference-paper/nnet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

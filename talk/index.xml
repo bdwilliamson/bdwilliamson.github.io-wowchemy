@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Brian D. Williamson, PhD</title>
+    <link>https://bdwilliamson.github.io/talk/</link>
+      <atom:link href="https://bdwilliamson.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bdwilliamson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://bdwilliamson.github.io/talk/</link>
+    </image>
+    
+    <item>
+      <title>Efficient nonparametric statistical inference on population feature importance using Shapley values</title>
+      <link>https://bdwilliamson.github.io/talk/icml2020/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/icml2020/</guid>
+      <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRzn61LwDFNvmu5TgDnxWMYitkzx_Dqz6NmQnM9_WsFxZHeNsubg0MF_EWvVqvSsyHpELiVLmL11vMR/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guiding HIV-1 antibody regimen down-selection and prevention efficacy trial design using machine learning</title>
+      <link>https://bdwilliamson.github.io/talk/hivde2020/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/hivde2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A unified approach to nonparametric variable importance assessment</title>
+      <link>https://bdwilliamson.github.io/talk/jsm2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/jsm2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing variable importance nonparametrically using machine learning techniques</title>
+      <link>https://bdwilliamson.github.io/talk/colloquium2018/</link>
+      <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/colloquium2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing variable importance nonparametrically using machine learning techniques</title>
+      <link>https://bdwilliamson.github.io/talk/jsm2018/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/jsm2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonparametric variable importance using an augmented neural network with multi-task learning</title>
+      <link>https://bdwilliamson.github.io/talk/icml2018/</link>
+      <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/icml2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing variable importance nonparametrically using machine learning techniques</title>
+      <link>https://bdwilliamson.github.io/talk/wnar2017/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/wnar2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
