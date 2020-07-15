@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kara Davis | Brian D. Williamson, PhD</title>
+    <link>https://bdwilliamson.github.io/author/kara-davis/</link>
+      <atom:link href="https://bdwilliamson.github.io/author/kara-davis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kara Davis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bdwilliamson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Kara Davis</title>
+      <link>https://bdwilliamson.github.io/author/kara-davis/</link>
+    </image>
+    
+    <item>
+      <title>DRUG-NEM: Optimizing drug combinations using single-cell perturbation response to account for intratumoral heterogeneity</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/drug-nem/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/drug-nem/</guid>
+      <description>&lt;p&gt;In this work, our goal was to develop an algorithm for optimally
+assigning patients to cancer treatment strategies. We leveraged data
+from single-cell mass cytometry to: automatically determine
+subpopulations of cells; create a nested effects model to infer gene
+hierarchy based on perturbation effects due to administered drugs; and
+create a scoring and ranking algorithm that identifies the minimal
+number of drugs among a combination of drugs with the maximal desired
+intracellular effects. This is joint work with 
+&lt;a href=&#34;http://med.stanford.edu/plevritis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sylvia
+Plevritis&lt;/a&gt;, 
+&lt;a href=&#34;http://med.stanford.edu/plevritis.html/People&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedict
+Anchang&lt;/a&gt;, and others.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
