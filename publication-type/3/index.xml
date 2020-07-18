@@ -7,13 +7,13 @@
     <description>3</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Mon, 13 Jul 2020 11:33:43 -0700</lastBuildDate>
     <image>
-      <url>https://bdwilliamson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
       <link>https://bdwilliamson.github.io/publication-type/3/</link>
     </image>
     
     <item>
-      <title>SLAPNAP: Super LeArner Predictions of Neutralizing Antibody Panels</title>
+      <title>Super LeArner Prediction of NAb Panels (SLAPNAP): a containerized tool for predicting combination monoclonal broadly neutralizing antibody sensitivity</title>
       <link>https://bdwilliamson.github.io/publication/preprint/slapnap/</link>
       <pubDate>Mon, 13 Jul 2020 11:33:43 -0700</pubDate>
       <guid>https://bdwilliamson.github.io/publication/preprint/slapnap/</guid>
@@ -41,7 +41,7 @@ tied together developments in the Shapley value literature in both game theory a
     </item>
     
     <item>
-      <title>Estimating microbial abundance</title>
+      <title>A multi-view model for relative and absolute microbial abundances</title>
       <link>https://bdwilliamson.github.io/publication/preprint/paramedic/</link>
       <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/publication/preprint/paramedic/</guid>
