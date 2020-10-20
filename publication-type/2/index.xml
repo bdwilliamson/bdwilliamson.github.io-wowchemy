@@ -93,6 +93,15 @@ Anchang&lt;/a&gt;, and others.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Nonparametric variable importance assessment using machine learning techniques</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
+      <description>&lt;p&gt;We first focused on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Frequency and predictors of estimated HIV transmissions and bacterial STI acquisition among HIV‐positive patients in HIV care across three continents</title>
       <link>https://bdwilliamson.github.io/publication/journal-article/hptn-063/</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
