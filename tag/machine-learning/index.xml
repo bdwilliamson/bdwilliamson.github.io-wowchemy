@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Nonparametric variable importance assessment using machine learning techniques</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
+      <description>&lt;p&gt;We first focused on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Super LeArner Prediction of NAb Panels (SLAPNAP): a containerized tool for predicting combination monoclonal broadly neutralizing antibody sensitivity</title>
       <link>https://bdwilliamson.github.io/publication/preprint/slapnap/</link>
       <pubDate>Mon, 13 Jul 2020 11:33:43 -0700</pubDate>
@@ -159,15 +168,6 @@ Docker container.&lt;/p&gt;
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/talk/icml2018/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Nonparametric variable importance assessment using machine learning techniques</title>
-      <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
-      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
-      <description>&lt;p&gt;We first focused on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
-</description>
     </item>
     
     <item>

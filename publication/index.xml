@@ -5,12 +5,21 @@
     <link>https://bdwilliamson.github.io/publication/</link>
       <atom:link href="https://bdwilliamson.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Mon, 13 Jul 2020 11:33:43 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://bdwilliamson.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Nonparametric variable importance assessment using machine learning techniques</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
+      <description>&lt;p&gt;We first focused on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Super LeArner Prediction of NAb Panels (SLAPNAP): a containerized tool for predicting combination monoclonal broadly neutralizing antibody sensitivity</title>
@@ -144,15 +153,6 @@ intracellular effects. This is joint work with
 Plevritis&lt;/a&gt;, 
 &lt;a href=&#34;http://med.stanford.edu/plevritis.html/People&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedict
 Anchang&lt;/a&gt;, and others.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Nonparametric variable importance assessment using machine learning techniques</title>
-      <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
-      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
-      <description>&lt;p&gt;We first focused on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
 </description>
     </item>
     
