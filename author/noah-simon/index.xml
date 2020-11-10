@@ -17,7 +17,7 @@
       <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
-      <description>&lt;p&gt;We first focused on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+      <description>&lt;p&gt;In my first paper on population variable importance, we focused on a nonparametric extension of the classical measure based on the difference in R-squared values (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
 </description>
     </item>
     

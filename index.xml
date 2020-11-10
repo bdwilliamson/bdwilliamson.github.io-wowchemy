@@ -25,7 +25,16 @@
       <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
-      <description>&lt;p&gt;We first focused on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+      <description>&lt;p&gt;In my first paper on population variable importance, we focused on a nonparametric extension of the classical measure based on the difference in R-squared values (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cytomegalovirus viral load kinetics as surrogate endpoints after allogeneic transplantation</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/cmv/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/cmv/</guid>
+      <description>&lt;p&gt;We used machine learning and classical statistical tools to assess potential surrogate endpoings for cytomegalovirus (CMV) disease, and identified several viral load kinetic variables (mean, peak, and change in viral load over the first five weeks of treatment) that satisfied the Prentice criteria for surrogate endpoints.&lt;/p&gt;
 </description>
     </item>
     
@@ -96,6 +105,8 @@ Network&lt;/a&gt; to analyze data from the
 clinical trial. We identified three antibody features that inversely
 correlated with HIV-1 infection risk. This may help in designing future
 HIV-1 vaccines.&lt;/p&gt;
+&lt;h1 id=&#34;surrogate-endpoints-for-cytomegalovirus-disease&#34;&gt;Surrogate endpoints for cytomegalovirus disease&lt;/h1&gt;
+&lt;p&gt;We used a combination of classical statistical methods and ensemble-based machine learning to assess various viral load kinetics as potential surrogate endpoints for cytomegalovirus disease after transplant. We found that mean, peak, and change in viral load over the first five weeks of treatment fulfilled the Prentice criteria for surrogacy and captured a large proportion of the treatment effect in two randomized, controlled trials.&lt;/p&gt;
 &lt;h1 id=&#34;non-vaccine-hiv-prevention&#34;&gt;Non-vaccine HIV prevention&lt;/h1&gt;
 &lt;h2 id=&#34;characteristics-associated-with-hiv-risk-in-young-south-african-women&#34;&gt;Characteristics associated with HIV risk in young South African women&lt;/h2&gt;
 &lt;p&gt;This study is based on data from the HIV Prevention Trials Network

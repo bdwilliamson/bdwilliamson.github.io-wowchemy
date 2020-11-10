@@ -17,7 +17,16 @@
       <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
-      <description>&lt;p&gt;We first focused on a nonparametric extension of the classical measure based on the difference in R-squared (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+      <description>&lt;p&gt;In my first paper on population variable importance, we focused on a nonparametric extension of the classical measure based on the difference in R-squared values (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cytomegalovirus viral load kinetics as surrogate endpoints after allogeneic transplantation</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/cmv/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/cmv/</guid>
+      <description>&lt;p&gt;We used machine learning and classical statistical tools to assess potential surrogate endpoings for cytomegalovirus (CMV) disease, and identified several viral load kinetic variables (mean, peak, and change in viral load over the first five weeks of treatment) that satisfied the Prentice criteria for surrogate endpoints.&lt;/p&gt;
 </description>
     </item>
     

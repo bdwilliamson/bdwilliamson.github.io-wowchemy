@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elizabeth Duke | Brian D. Williamson, PhD</title>
+    <link>https://bdwilliamson.github.io/author/elizabeth-duke/</link>
+      <atom:link href="https://bdwilliamson.github.io/author/elizabeth-duke/index.xml" rel="self" type="application/rss+xml" />
+    <description>Elizabeth Duke</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Thu, 24 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
+      <title>Elizabeth Duke</title>
+      <link>https://bdwilliamson.github.io/author/elizabeth-duke/</link>
+    </image>
+    
+    <item>
+      <title>Cytomegalovirus viral load kinetics as surrogate endpoints after allogeneic transplantation</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/cmv/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/cmv/</guid>
+      <description>&lt;p&gt;We used machine learning and classical statistical tools to assess potential surrogate endpoings for cytomegalovirus (CMV) disease, and identified several viral load kinetic variables (mean, peak, and change in viral load over the first five weeks of treatment) that satisfied the Prentice criteria for surrogate endpoints.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
