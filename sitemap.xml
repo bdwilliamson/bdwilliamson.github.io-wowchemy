@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bdwilliamson.github.io/talk/fhpostdoc2020/</loc>
+    <lastmod>2020-12-14T08:31:04-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bdwilliamson.github.io/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
+    <lastmod>2020-12-14T08:31:04-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bdwilliamson.github.io/tag/machine-learning/</loc>
+    <lastmod>2020-12-14T08:31:04-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bdwilliamson.github.io/tags/</loc>
+    <lastmod>2020-12-14T08:31:04-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bdwilliamson.github.io/tag/variable-importance/</loc>
+    <lastmod>2020-12-14T08:31:04-08:00</lastmod>
   </url>
   
   <url>
@@ -14,21 +34,6 @@
   
   <url>
     <loc>https://bdwilliamson.github.io/talk/vanderbilt2020/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bdwilliamson.github.io/tag/machine-learning/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bdwilliamson.github.io/tags/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bdwilliamson.github.io/tag/variable-importance/</loc>
     <lastmod>2020-12-01T14:07:17-08:00</lastmod>
   </url>
   

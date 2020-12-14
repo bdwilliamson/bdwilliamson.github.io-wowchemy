@@ -5,12 +5,20 @@
     <link>https://bdwilliamson.github.io/tag/machine-learning/</link>
       <atom:link href="https://bdwilliamson.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>machine-learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Wed, 21 Oct 2020 10:30:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Mon, 14 Dec 2020 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
       <title>machine-learning</title>
       <link>https://bdwilliamson.github.io/tag/machine-learning/</link>
     </image>
+    
+    <item>
+      <title>A unified approach to inference on algorithm-agnostic variable importance</title>
+      <link>https://bdwilliamson.github.io/talk/fhpostdoc2020/</link>
+      <pubDate>Mon, 14 Dec 2020 14:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/fhpostdoc2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A unified approach to inference on algorithm-agnostic variable importance</title>
