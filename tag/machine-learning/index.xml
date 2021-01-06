@@ -14,25 +14,25 @@
     
     <item>
       <title>Statistical inference and containerization in computational pipelines</title>
-      <link>https://bdwilliamson.github.io/talk/fhbiostat2021/</link>
+      <link>https://bdwilliamson.github.io/talk/statistical-inference-and-containerization-in-computational-pipelines/</link>
       <pubDate>Wed, 06 Jan 2021 12:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/talk/fhbiostat2021/</guid>
+      <guid>https://bdwilliamson.github.io/talk/statistical-inference-and-containerization-in-computational-pipelines/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A unified approach to inference on algorithm-agnostic variable importance</title>
-      <link>https://bdwilliamson.github.io/talk/fhpostdoc2020/</link>
+      <link>https://bdwilliamson.github.io/talk/a-unified-approach-to-inference-on-algorithm-agnostic-variable-importance/</link>
       <pubDate>Mon, 14 Dec 2020 14:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/talk/fhpostdoc2020/</guid>
+      <guid>https://bdwilliamson.github.io/talk/a-unified-approach-to-inference-on-algorithm-agnostic-variable-importance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A unified approach to inference on algorithm-agnostic variable importance</title>
-      <link>https://bdwilliamson.github.io/talk/vanderbilt2020/</link>
+      <link>https://bdwilliamson.github.io/talk/a-unified-approach-to-inference-on-algorithm-agnostic-variable-importance/</link>
       <pubDate>Wed, 21 Oct 2020 10:30:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/talk/vanderbilt2020/</guid>
+      <guid>https://bdwilliamson.github.io/talk/a-unified-approach-to-inference-on-algorithm-agnostic-variable-importance/</guid>
       <description></description>
     </item>
     
@@ -71,9 +71,9 @@ Docker container.&lt;/p&gt;
     
     <item>
       <title>Efficient nonparametric statistical inference on population feature importance using Shapley values</title>
-      <link>https://bdwilliamson.github.io/talk/icml2020/</link>
+      <link>https://bdwilliamson.github.io/talk/efficient-nonparametric-statistical-inference-on-population-feature-importance-using-shapley-values/</link>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/talk/icml2020/</guid>
+      <guid>https://bdwilliamson.github.io/talk/efficient-nonparametric-statistical-inference-on-population-feature-importance-using-shapley-values/</guid>
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRzn61LwDFNvmu5TgDnxWMYitkzx_Dqz6NmQnM9_WsFxZHeNsubg0MF_EWvVqvSsyHpELiVLmL11vMR/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -98,49 +98,49 @@ Gilbert&lt;/a&gt;, &lt;a href=&#34;http://faculty.washington.edu/nrsimon/&#34; t
     
     <item>
       <title>Guiding HIV-1 antibody regimen down-selection and prevention efficacy trial design using machine learning</title>
-      <link>https://bdwilliamson.github.io/talk/hivde2020/</link>
+      <link>https://bdwilliamson.github.io/talk/guiding-hiv-1-antibody-regimen-down-selection-and-prevention-efficacy-trial-design-using-machine-learning/</link>
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/talk/hivde2020/</guid>
+      <guid>https://bdwilliamson.github.io/talk/guiding-hiv-1-antibody-regimen-down-selection-and-prevention-efficacy-trial-design-using-machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A unified approach to nonparametric variable importance assessment</title>
-      <link>https://bdwilliamson.github.io/talk/jsm2019/</link>
+      <link>https://bdwilliamson.github.io/talk/a-unified-approach-to-nonparametric-variable-importance-assessment/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/talk/jsm2019/</guid>
+      <guid>https://bdwilliamson.github.io/talk/a-unified-approach-to-nonparametric-variable-importance-assessment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Assessing variable importance nonparametrically using machine learning techniques</title>
-      <link>https://bdwilliamson.github.io/talk/colloquium2018/</link>
+      <link>https://bdwilliamson.github.io/talk/assessing-variable-importance-nonparametrically-using-machine-learning-techniques/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/talk/colloquium2018/</guid>
+      <guid>https://bdwilliamson.github.io/talk/assessing-variable-importance-nonparametrically-using-machine-learning-techniques/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Assessing variable importance nonparametrically using machine learning techniques</title>
-      <link>https://bdwilliamson.github.io/talk/jsm2018/</link>
+      <link>https://bdwilliamson.github.io/talk/assessing-variable-importance-nonparametrically-using-machine-learning-techniques/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/talk/jsm2018/</guid>
+      <guid>https://bdwilliamson.github.io/talk/assessing-variable-importance-nonparametrically-using-machine-learning-techniques/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nonparametric variable importance using an augmented neural network with multi-task learning</title>
-      <link>https://bdwilliamson.github.io/talk/icml2018/</link>
+      <link>https://bdwilliamson.github.io/talk/nonparametric-variable-importance-using-an-augmented-neural-network-with-multi-task-learning/</link>
       <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/talk/icml2018/</guid>
+      <guid>https://bdwilliamson.github.io/talk/nonparametric-variable-importance-using-an-augmented-neural-network-with-multi-task-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Assessing variable importance nonparametrically using machine learning techniques</title>
-      <link>https://bdwilliamson.github.io/talk/wnar2017/</link>
+      <link>https://bdwilliamson.github.io/talk/assessing-variable-importance-nonparametrically-using-machine-learning-techniques/</link>
       <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/talk/wnar2017/</guid>
+      <guid>https://bdwilliamson.github.io/talk/assessing-variable-importance-nonparametrically-using-machine-learning-techniques/</guid>
       <description></description>
     </item>
     

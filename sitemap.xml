@@ -18,8 +18,13 @@
   </url>
   
   <url>
-    <loc>https://bdwilliamson.github.io/talk/fhbiostat2021/</loc>
-    <lastmod>2021-01-06T10:20:10-08:00</lastmod>
+    <loc>https://bdwilliamson.github.io/event/</loc>
+    <lastmod>2021-01-06T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bdwilliamson.github.io/talk/statistical-inference-and-containerization-in-computational-pipelines/</loc>
+    <lastmod>2021-01-06T12:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,18 +38,18 @@
   </url>
   
   <url>
-    <loc>https://bdwilliamson.github.io/talk/fhpostdoc2020/</loc>
-    <lastmod>2021-01-05T14:01:55-08:00</lastmod>
+    <loc>https://bdwilliamson.github.io/talk/a-unified-approach-to-inference-on-algorithm-agnostic-variable-importance/</loc>
+    <lastmod>2020-12-14T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bdwilliamson.github.io/talk/rvgs2020/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
+    <loc>https://bdwilliamson.github.io/talk/statistics-in-infectious-disease-research/</loc>
+    <lastmod>2020-12-02T07:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bdwilliamson.github.io/talk/vanderbilt2020/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
+    <loc>https://bdwilliamson.github.io/talk/a-unified-approach-to-inference-on-algorithm-agnostic-variable-importance/</loc>
+    <lastmod>2020-10-21T10:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -158,8 +163,8 @@
   </url>
   
   <url>
-    <loc>https://bdwilliamson.github.io/talk/icml2020/</loc>
-    <lastmod>2020-07-15T16:22:42-07:00</lastmod>
+    <loc>https://bdwilliamson.github.io/talk/efficient-nonparametric-statistical-inference-on-population-feature-importance-using-shapley-values/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -203,8 +208,8 @@
   </url>
   
   <url>
-    <loc>https://bdwilliamson.github.io/talk/hivde2020/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
+    <loc>https://bdwilliamson.github.io/talk/guiding-hiv-1-antibody-regimen-down-selection-and-prevention-efficacy-trial-design-using-machine-learning/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -253,8 +258,8 @@
   </url>
   
   <url>
-    <loc>https://bdwilliamson.github.io/talk/jsm2019/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
+    <loc>https://bdwilliamson.github.io/talk/a-unified-approach-to-nonparametric-variable-importance-assessment/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -278,13 +283,13 @@
   </url>
   
   <url>
-    <loc>https://bdwilliamson.github.io/talk/colloquium2018/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
+    <loc>https://bdwilliamson.github.io/talk/assessing-variable-importance-nonparametrically-using-machine-learning-techniques/</loc>
+    <lastmod>2018-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bdwilliamson.github.io/talk/jsm2018/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
+    <loc>https://bdwilliamson.github.io/talk/assessing-variable-importance-nonparametrically-using-machine-learning-techniques/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -293,8 +298,8 @@
   </url>
   
   <url>
-    <loc>https://bdwilliamson.github.io/talk/icml2018/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
+    <loc>https://bdwilliamson.github.io/talk/nonparametric-variable-importance-using-an-augmented-neural-network-with-multi-task-learning/</loc>
+    <lastmod>2018-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -318,8 +323,8 @@
   </url>
   
   <url>
-    <loc>https://bdwilliamson.github.io/talk/wnar2017/</loc>
-    <lastmod>2020-12-01T14:07:17-08:00</lastmod>
+    <loc>https://bdwilliamson.github.io/talk/assessing-variable-importance-nonparametrically-using-machine-learning-techniques/</loc>
+    <lastmod>2017-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -377,11 +382,6 @@
   
   <url>
     <loc>https://bdwilliamson.github.io/publication/</loc>
-    <lastmod>2021-01-06T09:27:57-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bdwilliamson.github.io/talk/</loc>
     <lastmod>2021-01-06T09:27:57-08:00</lastmod>
   </url>
   
