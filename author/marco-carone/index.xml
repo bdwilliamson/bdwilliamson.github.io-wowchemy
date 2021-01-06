@@ -5,7 +5,7 @@
     <link>https://bdwilliamson.github.io/author/marco-carone/</link>
       <atom:link href="https://bdwilliamson.github.io/author/marco-carone/index.xml" rel="self" type="application/rss+xml" />
     <description>Marco Carone</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2014--2021 Brian D. Williamson</copyright><lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
       <title>Marco Carone</title>
@@ -17,7 +17,7 @@
       <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
-      <description>&lt;p&gt;In my first paper on population variable importance, we focused on a nonparametric extension of the classical measure based on the difference in R-squared values (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+      <description>&lt;p&gt;In my first paper on population variable importance, we focused on a nonparametric extension of the classical measure based on the difference in R-squared values (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance. We also provide a &lt;a href=&#34;https://doi.org/10.1111/biom.13389&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rejoinder&lt;/a&gt; to discussion on this article.&lt;/p&gt;
 </description>
     </item>
     

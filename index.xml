@@ -5,12 +5,20 @@
     <link>https://bdwilliamson.github.io/</link>
       <atom:link href="https://bdwilliamson.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Brian D. Williamson, PhD</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Mon, 14 Dec 2020 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2014--2021 Brian D. Williamson</copyright><lastBuildDate>Wed, 06 Jan 2021 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
       <title>Brian D. Williamson, PhD</title>
       <link>https://bdwilliamson.github.io/</link>
     </image>
+    
+    <item>
+      <title>Statistical inference and containerization in computational pipelines</title>
+      <link>https://bdwilliamson.github.io/talk/fhbiostat2021/</link>
+      <pubDate>Wed, 06 Jan 2021 12:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/fhbiostat2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A unified approach to inference on algorithm-agnostic variable importance</title>
@@ -41,7 +49,7 @@
       <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
-      <description>&lt;p&gt;In my first paper on population variable importance, we focused on a nonparametric extension of the classical measure based on the difference in R-squared values (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+      <description>&lt;p&gt;In my first paper on population variable importance, we focused on a nonparametric extension of the classical measure based on the difference in R-squared values (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance. We also provide a &lt;a href=&#34;https://doi.org/10.1111/biom.13389&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rejoinder&lt;/a&gt; to discussion on this article.&lt;/p&gt;
 </description>
     </item>
     
@@ -55,25 +63,6 @@
     </item>
     
     <item>
-      <title>Microbial Abundance</title>
-      <link>https://bdwilliamson.github.io/project/microbial-abundance/</link>
-      <pubDate>Mon, 13 Jul 2020 16:54:42 -0700</pubDate>
-      <guid>https://bdwilliamson.github.io/project/microbial-abundance/</guid>
-      <description>&lt;p&gt;In this work, we propose a statistical method for combining inexpensive
-(but often lower-quality) estimates of relative abundance (e.g.,
-collected using universal primers for the 16S rRNA gene) and higher
-quality (but often expensive) estimates of absolute abundance (e.g.,
-from quantitative PCR) to estimate absolute abundance of all taxa.
-Crucially, our proposal accounts for differences in the efficiency of
-taxon detection in the relative and absolute abundance data. This is
-joint work with 
-&lt;a href=&#34;http://faculty.washington.edu/jphughes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jim Hughes&lt;/a&gt;
-and 
-&lt;a href=&#34;http://statisticaldiversitylab.com/team/amy-willis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amy Willis&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Super LeArner Prediction of NAb Panels (SLAPNAP): a containerized tool for predicting combination monoclonal broadly neutralizing antibody sensitivity</title>
       <link>https://bdwilliamson.github.io/publication/preprint/slapnap/</link>
       <pubDate>Mon, 13 Jul 2020 11:33:43 -0700</pubDate>
@@ -82,29 +71,42 @@ and
     </item>
     
     <item>
-      <title>Variable Importance</title>
-      <link>https://bdwilliamson.github.io/project/variable-importance/</link>
-      <pubDate>Mon, 13 Jul 2020 10:58:17 -0700</pubDate>
-      <guid>https://bdwilliamson.github.io/project/variable-importance/</guid>
-      <description>&lt;p&gt;It is often of interest to understand the population interplay between
-the outcome and measured covariates. Variable importance is a useful
-tool towards this goal. Examples include: HIV vaccine studies,
-correlates of risk analyses, and identifying patients at high risk of
-returning to a hospital after discharge for heart failure. This is joint
-work with 
-&lt;a href=&#34;http://faculty.washington.edu/mcarone/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marco
-Carone&lt;/a&gt;, 
-&lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter
-Gilbert&lt;/a&gt;, 
-&lt;a href=&#34;http://faculty.washington.edu/nrsimon/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noah Simon&lt;/a&gt;, and 
-&lt;a href=&#34;https://www.jeanfeng.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jean Feng&lt;/a&gt;.&lt;/p&gt;
+      <title>Broadly Neutralizing Antibodies</title>
+      <link>https://bdwilliamson.github.io/project/bnabs/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/project/bnabs/</guid>
+      <description>&lt;p&gt;The broadly neutralizing antibody VRC01, developed by the Vaccine
+Research Center of the National Institute of Allergy and Infectious
+Diseases, is currently being evaluated in the &lt;a href=&#34;https://ampstudy.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antibody Mediated
+Prevention&lt;/a&gt; study (AMP). While the primary goal
+of AMP is to assess the preventative efficacy of VRC01, a key secondary
+goal is to determine if this efficacy differs based on characteristics
+of the HIV virus. There are many possible locations on the HIV genome
+that we might be interested in; if we simply did a statistical test for
+association at each possible location, and then appropriately accounted
+for this multiple testing, then we would have low power to detect
+effects. To prepare for AMP, we used data on HIV viruses from the
+&lt;a href=&#34;https://www.hiv.lanl.gov/components/sequence/HIV/neutralization/main.comp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compile, Neutralize, and Tally NAb
+Panels&lt;/a&gt;
+database. Our goals were to: (i) develop a score that performed well for
+predicting whether or not an HIV virus was sensitive to neutralization
+by VRC01, and (ii) to identify groups of HIV genome features that were
+important in predicting neutralization sensitivity. This project is
+joint work with &lt;a href=&#34;https://www.linkedin.com/in/camagaret/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Craig Magaret&lt;/a&gt;,
+&lt;a href=&#34;https://www.benkeserstatistics.com/#!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Benkeser&lt;/a&gt;, Peter Gilbert,
+and others.&lt;/p&gt;
+&lt;p&gt;We next extended the methods used for the VRC01 analysis to combinations
+of antibodies – a prevention strategy involving multiple bnAbs is likely
+to be much more effective than a strategy with a single bnAb. Sohail
+Nizam joined the team for this project. The software is implemented as a
+Docker container.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Collaborative Science</title>
       <link>https://bdwilliamson.github.io/project/collaborative-science/</link>
-      <pubDate>Mon, 13 Jul 2020 10:52:29 -0700</pubDate>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/project/collaborative-science/</guid>
       <description>&lt;h1 id=&#34;hiv-vaccines&#34;&gt;HIV vaccines&lt;/h1&gt;
 &lt;h2 id=&#34;correlates-of-hiv-1-risk&#34;&gt;Correlates of HIV-1 risk&lt;/h2&gt;
@@ -113,10 +115,8 @@ clinical trials of HIV-1 vaccine candidates can identify potential
 correlates of risk or of protection. These correlates are measurable
 signs that a person is at risk of or is protected from infection by
 HIV-1, respectively. In this work, I collaborated with Peter Gilbert and
-others affiliated with the 
-&lt;a href=&#34;https://www.hvtn.org/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HIV Vaccine Trials
-Network&lt;/a&gt; to analyze data from the 
-&lt;a href=&#34;https://www.hvtn.org/en/community/community-compass/vol19-issue1/hvtn-505-recap.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HVTN
+others affiliated with the &lt;a href=&#34;https://www.hvtn.org/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HIV Vaccine Trials
+Network&lt;/a&gt; to analyze data from the &lt;a href=&#34;https://www.hvtn.org/en/community/community-compass/vol19-issue1/hvtn-505-recap.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HVTN
 505&lt;/a&gt;
 clinical trial. We identified three antibody features that inversely
 correlated with HIV-1 infection risk. This may help in designing future
@@ -131,8 +131,7 @@ with age-discordant partnerships (one partner greater than 5 years older
 than the other) and examine the association between partner age
 discordance and HIV risk in young South African women. We found that a
 history of age-discordant partnerships is associated witih greater odds
-of reporting HIV risk factors. This is joint work with 
-&lt;a href=&#34;https://fmch.duke.edu/profile/tiarney-ritchwood&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tiarney
+of reporting HIV risk factors. This is joint work with &lt;a href=&#34;https://fmch.duke.edu/profile/tiarney-ritchwood&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tiarney
 Ritchwood&lt;/a&gt;, Jim Hughes,
 and others.&lt;/p&gt;
 &lt;h2 id=&#34;hiv-treatment-as-prevention&#34;&gt;HIV treatment as prevention&lt;/h2&gt;
@@ -145,8 +144,7 @@ potential impact of such programs. We found that there were substantial
 numbers of both estimated HIV transmissions and STIs, despite sampling
 individuals in HIV care. This suggested that augmenting secondary
 prevention interventions may be a means to decrease HIV incidence. This
-is joint work with 
-&lt;a href=&#34;https://people.miami.edu/profile/sas436@miami.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Steven
+is joint work with &lt;a href=&#34;https://people.miami.edu/profile/sas436@miami.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Steven
 Safren&lt;/a&gt;, Jim Hughes,
 and others.&lt;/p&gt;
 &lt;h1 id=&#34;cancer-treatment&#34;&gt;Cancer treatment&lt;/h1&gt;
@@ -158,18 +156,44 @@ subpopulations of cells; create a nested effects model to infer gene
 hierarchy based on perturbation effects due to administered drugs; and
 create a scoring and ranking algorithm that identifies the minimal
 number of drugs among a combination of drugs with teh maximal desired
-intracellular effects. This is joint work with 
-&lt;a href=&#34;http://med.stanford.edu/plevritis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sylvia
-Plevritis&lt;/a&gt;, 
-&lt;a href=&#34;http://med.stanford.edu/plevritis.html/People&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedict
+intracellular effects. This is joint work with &lt;a href=&#34;http://med.stanford.edu/plevritis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sylvia
+Plevritis&lt;/a&gt;, &lt;a href=&#34;http://med.stanford.edu/plevritis.html/People&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedict
 Anchang&lt;/a&gt;, and others.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient nonparametric statistical inference on population feature importance using Shapley values</title>
+      <link>https://bdwilliamson.github.io/talk/icml2020/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/icml2020/</guid>
+      <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRzn61LwDFNvmu5TgDnxWMYitkzx_Dqz6NmQnM9_WsFxZHeNsubg0MF_EWvVqvSsyHpELiVLmL11vMR/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Microbial Abundance</title>
+      <link>https://bdwilliamson.github.io/project/microbial-abundance/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/project/microbial-abundance/</guid>
+      <description>&lt;p&gt;In this work, we propose a statistical method for combining inexpensive
+(but often lower-quality) estimates of relative abundance (e.g.,
+collected using universal primers for the 16S rRNA gene) and higher
+quality (but often expensive) estimates of absolute abundance (e.g.,
+from quantitative PCR) to estimate absolute abundance of all taxa.
+Crucially, our proposal accounts for differences in the efficiency of
+taxon detection in the relative and absolute abundance data. This is
+joint work with &lt;a href=&#34;http://faculty.washington.edu/jphughes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jim Hughes&lt;/a&gt;
+and &lt;a href=&#34;http://statisticaldiversitylab.com/team/amy-willis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amy Willis&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Statistical Methods for Clinical Trials</title>
       <link>https://bdwilliamson.github.io/project/clinical-trials/</link>
-      <pubDate>Mon, 13 Jul 2020 10:47:17 -0700</pubDate>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/project/clinical-trials/</guid>
       <description>&lt;p&gt;In settings where it is not ethical to perform a classical
 placebo-controlled trial, new interventions must be evaluated against
@@ -187,10 +211,8 @@ false positive result (type I error) or a false negative result (type II
 error) can be different than planned. In this work, we proposed a method
 for rigorously adapting a non-inferiority trial based on observed
 characteristics of the active control participants. This is joint work
-with 
-&lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/donnell-deborah.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deborah
+with &lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/donnell-deborah.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deborah
 Donnell&lt;/a&gt;,
-
 &lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/hanscom-brett.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brett
 Hanscom&lt;/a&gt;,
 and Jim Hughes.&lt;/p&gt;
@@ -198,62 +220,27 @@ and Jim Hughes.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Broadly Neutralizing Antibodies</title>
-      <link>https://bdwilliamson.github.io/project/bnabs/</link>
+      <title>Variable Importance</title>
+      <link>https://bdwilliamson.github.io/project/variable-importance/</link>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/project/bnabs/</guid>
-      <description>&lt;p&gt;The broadly neutralizing antibody VRC01, developed by the Vaccine
-Research Center of the National Institute of Allergy and Infectious
-Diseases, is currently being evaluated in the 
-&lt;a href=&#34;https://ampstudy.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antibody Mediated
-Prevention&lt;/a&gt; study (AMP). While the primary goal
-of AMP is to assess the preventative efficacy of VRC01, a key secondary
-goal is to determine if this efficacy differs based on characteristics
-of the HIV virus. There are many possible locations on the HIV genome
-that we might be interested in; if we simply did a statistical test for
-association at each possible location, and then appropriately accounted
-for this multiple testing, then we would have low power to detect
-effects. To prepare for AMP, we used data on HIV viruses from the
-
-&lt;a href=&#34;https://www.hiv.lanl.gov/components/sequence/HIV/neutralization/main.comp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compile, Neutralize, and Tally NAb
-Panels&lt;/a&gt;
-database. Our goals were to: (i) develop a score that performed well for
-predicting whether or not an HIV virus was sensitive to neutralization
-by VRC01, and (ii) to identify groups of HIV genome features that were
-important in predicting neutralization sensitivity. This project is
-joint work with 
-&lt;a href=&#34;https://www.linkedin.com/in/camagaret/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Craig Magaret&lt;/a&gt;,
-
-&lt;a href=&#34;https://www.benkeserstatistics.com/#!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Benkeser&lt;/a&gt;, Peter Gilbert,
-and others.&lt;/p&gt;
-&lt;p&gt;We next extended the methods used for the VRC01 analysis to combinations
-of antibodies – a prevention strategy involving multiple bnAbs is likely
-to be much more effective than a strategy with a single bnAb. Sohail
-Nizam joined the team for this project. The software is implemented as a
-Docker container.&lt;/p&gt;
+      <guid>https://bdwilliamson.github.io/project/variable-importance/</guid>
+      <description>&lt;p&gt;It is often of interest to understand the population interplay between
+the outcome and measured covariates. Variable importance is a useful
+tool towards this goal. Examples include: HIV vaccine studies,
+correlates of risk analyses, and identifying patients at high risk of
+returning to a hospital after discharge for heart failure. This is joint
+work with &lt;a href=&#34;http://faculty.washington.edu/mcarone/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marco
+Carone&lt;/a&gt;, &lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter
+Gilbert&lt;/a&gt;, &lt;a href=&#34;http://faculty.washington.edu/nrsimon/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noah Simon&lt;/a&gt;, and &lt;a href=&#34;https://www.jeanfeng.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jean Feng&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Efficient nonparametric statistical inference on population feature importance using Shapley values</title>
-      <link>https://bdwilliamson.github.io/talk/icml2020/</link>
-      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/talk/icml2020/</guid>
-      <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
-  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRzn61LwDFNvmu5TgDnxWMYitkzx_Dqz6NmQnM9_WsFxZHeNsubg0MF_EWvVqvSsyHpELiVLmL11vMR/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Efficient nonparametric statistical inference on population feature importance using Shapley values</title>
-      <link>https://bdwilliamson.github.io/publication/preprint/shapley/</link>
-      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/publication/preprint/shapley/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://www.jeanfeng.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jean Feng&lt;/a&gt; and I
-tied together developments in the Shapley value literature in both game theory and machine learning. We propose a computationally efficient procedure that solves the issue that the classical Shapley values require estimating $2^p$ regression functions (in a problem with $p$ variables).&lt;/p&gt;
-</description>
+      <link>https://bdwilliamson.github.io/publication/conference-paper/shapley/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/conference-paper/shapley/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -283,10 +270,8 @@ clinical trials of HIV-1 vaccine candidates can identify potential
 correlates of risk or of protection. These correlates are measurable
 signs that a person is at risk of or is protected from infection by
 HIV-1, respectively. In this work, I collaborated with Peter Gilbert and
-others affiliated with the 
-&lt;a href=&#34;https://www.hvtn.org/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HIV Vaccine Trials
-Network&lt;/a&gt; to analyze data from the 
-&lt;a href=&#34;https://www.hvtn.org/en/community/community-compass/vol19-issue1/hvtn-505-recap.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HVTN
+others affiliated with the &lt;a href=&#34;https://www.hvtn.org/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HIV Vaccine Trials
+Network&lt;/a&gt; to analyze data from the &lt;a href=&#34;https://www.hvtn.org/en/community/community-compass/vol19-issue1/hvtn-505-recap.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HVTN
 505&lt;/a&gt;
 clinical trial. We identified three antibody features that inversely
 correlated with HIV-1 infection risk. This may help in designing future
@@ -306,10 +291,8 @@ quality (but often expensive) estimates of absolute abundance (e.g.,
 from quantitative PCR) to estimate absolute abundance of all taxa.
 Crucially, our proposal accounts for differences in the efficiency of
 taxon detection in the relative and absolute abundance data. This is
-joint work with 
-&lt;a href=&#34;http://faculty.washington.edu/jphughes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jim Hughes&lt;/a&gt;
-and 
-&lt;a href=&#34;http://statisticaldiversitylab.com/team/amy-willis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amy Willis&lt;/a&gt;.&lt;/p&gt;
+joint work with &lt;a href=&#34;http://faculty.washington.edu/jphughes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jim Hughes&lt;/a&gt;
+and &lt;a href=&#34;http://statisticaldiversitylab.com/team/amy-willis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amy Willis&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -350,10 +333,8 @@ false positive result (type I error) or a false negative result (type II
 error) can be different than planned. In this work, we proposed a method
 for rigorously adapting a non-inferiority trial based on observed
 characteristics of the active control participants. This is joint work
-with 
-&lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/donnell-deborah.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deborah
+with &lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/donnell-deborah.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deborah
 Donnell&lt;/a&gt;,
-
 &lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/hanscom-brett.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brett
 Hanscom&lt;/a&gt;,
 and Jim Hughes.&lt;/p&gt;
@@ -404,10 +385,8 @@ subpopulations of cells; create a nested effects model to infer gene
 hierarchy based on perturbation effects due to administered drugs; and
 create a scoring and ranking algorithm that identifies the minimal
 number of drugs among a combination of drugs with the maximal desired
-intracellular effects. This is joint work with 
-&lt;a href=&#34;http://med.stanford.edu/plevritis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sylvia
-Plevritis&lt;/a&gt;, 
-&lt;a href=&#34;http://med.stanford.edu/plevritis.html/People&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedict
+intracellular effects. This is joint work with &lt;a href=&#34;http://med.stanford.edu/plevritis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sylvia
+Plevritis&lt;/a&gt;, &lt;a href=&#34;http://med.stanford.edu/plevritis.html/People&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedict
 Anchang&lt;/a&gt;, and others.&lt;/p&gt;
 </description>
     </item>
@@ -434,8 +413,7 @@ potential impact of such programs. We found that there were substantial
 numbers of both estimated HIV transmissions and STIs, despite sampling
 individuals in HIV care. This suggested that augmenting secondary
 prevention interventions may be a means to decrease HIV incidence. This
-is joint work with 
-&lt;a href=&#34;https://people.miami.edu/profile/sas436@miami.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Steven
+is joint work with &lt;a href=&#34;https://people.miami.edu/profile/sas436@miami.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Steven
 Safren&lt;/a&gt;, Jim Hughes,
 and others.&lt;/p&gt;
 </description>
@@ -452,8 +430,7 @@ with age-discordant partnerships (one partner greater than 5 years older
 than the other) and examine the association between partner age
 discordance and HIV risk in young South African women. We found that a
 history of age-discordant partnerships is associated witih greater odds
-of reporting HIV risk factors. This is joint work with 
-&lt;a href=&#34;https://fmch.duke.edu/profile/tiarney-ritchwood&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tiarney
+of reporting HIV risk factors. This is joint work with &lt;a href=&#34;https://fmch.duke.edu/profile/tiarney-ritchwood&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tiarney
 Ritchwood&lt;/a&gt;, Jim Hughes,
 and others.&lt;/p&gt;
 </description>
@@ -465,22 +442,15 @@ and others.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/author/brian-williamson/</guid>
       <description>&lt;p&gt;Pronouns: he/him/his&lt;/p&gt;
-&lt;p&gt;I am a postdoctoral fellow in the 
-&lt;a href=&#34;https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vaccine and Infectious Disease
+&lt;p&gt;I am a postdoctoral fellow in the &lt;a href=&#34;https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vaccine and Infectious Disease
 Division&lt;/a&gt;
-at 
-&lt;a href=&#34;https://www.fredhutch.org/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fred Hutch&lt;/a&gt;, where I work with
-
+at &lt;a href=&#34;https://www.fredhutch.org/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fred Hutch&lt;/a&gt;, where I work with
 &lt;a href=&#34;https://www.fredhutch.org/en/faculty-lab-directory/huang-ying.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ying
 Huang&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I completed my doctoral studies in
-
-&lt;a href=&#34;https://www.biostat.washington.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biostatistics&lt;/a&gt; at the 
-&lt;a href=&#34;https://www.washington.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University
-of Washington&lt;/a&gt; under the guidance of 
-&lt;a href=&#34;http://faculty.washington.edu/mcarone/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marco
-Carone&lt;/a&gt; and 
-&lt;a href=&#34;http://faculty.washington.edu/nrsimon/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noah
+&lt;a href=&#34;https://www.biostat.washington.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biostatistics&lt;/a&gt; at the &lt;a href=&#34;https://www.washington.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University
+of Washington&lt;/a&gt; under the guidance of &lt;a href=&#34;http://faculty.washington.edu/mcarone/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marco
+Carone&lt;/a&gt; and &lt;a href=&#34;http://faculty.washington.edu/nrsimon/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noah
 Simon&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I am interested in problems of high-dimensional data, data science, and
 statistical inference. In particular, I enjoy working on developing new

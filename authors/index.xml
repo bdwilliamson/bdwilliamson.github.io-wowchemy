@@ -5,7 +5,7 @@
     <link>https://bdwilliamson.github.io/authors/</link>
       <atom:link href="https://bdwilliamson.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2014--2021 Brian D. Williamson</copyright><lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
@@ -18,22 +18,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/author/brian-williamson/</guid>
       <description>&lt;p&gt;Pronouns: he/him/his&lt;/p&gt;
-&lt;p&gt;I am a postdoctoral fellow in the 
-&lt;a href=&#34;https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vaccine and Infectious Disease
+&lt;p&gt;I am a postdoctoral fellow in the &lt;a href=&#34;https://www.fredhutch.org/en/research/divisions/vaccine-infectious-disease-division.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vaccine and Infectious Disease
 Division&lt;/a&gt;
-at 
-&lt;a href=&#34;https://www.fredhutch.org/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fred Hutch&lt;/a&gt;, where I work with
-
+at &lt;a href=&#34;https://www.fredhutch.org/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fred Hutch&lt;/a&gt;, where I work with
 &lt;a href=&#34;https://www.fredhutch.org/en/faculty-lab-directory/huang-ying.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ying
 Huang&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I completed my doctoral studies in
-
-&lt;a href=&#34;https://www.biostat.washington.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biostatistics&lt;/a&gt; at the 
-&lt;a href=&#34;https://www.washington.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University
-of Washington&lt;/a&gt; under the guidance of 
-&lt;a href=&#34;http://faculty.washington.edu/mcarone/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marco
-Carone&lt;/a&gt; and 
-&lt;a href=&#34;http://faculty.washington.edu/nrsimon/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noah
+&lt;a href=&#34;https://www.biostat.washington.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Biostatistics&lt;/a&gt; at the &lt;a href=&#34;https://www.washington.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University
+of Washington&lt;/a&gt; under the guidance of &lt;a href=&#34;http://faculty.washington.edu/mcarone/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marco
+Carone&lt;/a&gt; and &lt;a href=&#34;http://faculty.washington.edu/nrsimon/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noah
 Simon&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I am interested in problems of high-dimensional data, data science, and
 statistical inference. In particular, I enjoy working on developing new

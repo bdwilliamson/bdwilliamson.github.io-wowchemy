@@ -5,7 +5,7 @@
     <link>https://bdwilliamson.github.io/publication-type/2/</link>
       <atom:link href="https://bdwilliamson.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2014--2021 Brian D. Williamson</copyright><lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
@@ -17,7 +17,7 @@
       <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
-      <description>&lt;p&gt;In my first paper on population variable importance, we focused on a nonparametric extension of the classical measure based on the difference in R-squared values (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance.&lt;/p&gt;
+      <description>&lt;p&gt;In my first paper on population variable importance, we focused on a nonparametric extension of the classical measure based on the difference in R-squared values (from linear models). We provide a simple approach for estimation that incorporates machine learning tools, and yields valid confidence intervals for the true importance. We also provide a &lt;a href=&#34;https://doi.org/10.1111/biom.13389&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rejoinder&lt;/a&gt; to discussion on this article.&lt;/p&gt;
 </description>
     </item>
     
@@ -40,10 +40,8 @@ clinical trials of HIV-1 vaccine candidates can identify potential
 correlates of risk or of protection. These correlates are measurable
 signs that a person is at risk of or is protected from infection by
 HIV-1, respectively. In this work, I collaborated with Peter Gilbert and
-others affiliated with the 
-&lt;a href=&#34;https://www.hvtn.org/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HIV Vaccine Trials
-Network&lt;/a&gt; to analyze data from the 
-&lt;a href=&#34;https://www.hvtn.org/en/community/community-compass/vol19-issue1/hvtn-505-recap.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HVTN
+others affiliated with the &lt;a href=&#34;https://www.hvtn.org/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HIV Vaccine Trials
+Network&lt;/a&gt; to analyze data from the &lt;a href=&#34;https://www.hvtn.org/en/community/community-compass/vol19-issue1/hvtn-505-recap.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HVTN
 505&lt;/a&gt;
 clinical trial. We identified three antibody features that inversely
 correlated with HIV-1 infection risk. This may help in designing future
@@ -80,10 +78,8 @@ false positive result (type I error) or a false negative result (type II
 error) can be different than planned. In this work, we proposed a method
 for rigorously adapting a non-inferiority trial based on observed
 characteristics of the active control participants. This is joint work
-with 
-&lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/donnell-deborah.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deborah
+with &lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/donnell-deborah.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deborah
 Donnell&lt;/a&gt;,
-
 &lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/hanscom-brett.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brett
 Hanscom&lt;/a&gt;,
 and Jim Hughes.&lt;/p&gt;
@@ -102,10 +98,8 @@ subpopulations of cells; create a nested effects model to infer gene
 hierarchy based on perturbation effects due to administered drugs; and
 create a scoring and ranking algorithm that identifies the minimal
 number of drugs among a combination of drugs with the maximal desired
-intracellular effects. This is joint work with 
-&lt;a href=&#34;http://med.stanford.edu/plevritis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sylvia
-Plevritis&lt;/a&gt;, 
-&lt;a href=&#34;http://med.stanford.edu/plevritis.html/People&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedict
+intracellular effects. This is joint work with &lt;a href=&#34;http://med.stanford.edu/plevritis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sylvia
+Plevritis&lt;/a&gt;, &lt;a href=&#34;http://med.stanford.edu/plevritis.html/People&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedict
 Anchang&lt;/a&gt;, and others.&lt;/p&gt;
 </description>
     </item>
@@ -124,8 +118,7 @@ potential impact of such programs. We found that there were substantial
 numbers of both estimated HIV transmissions and STIs, despite sampling
 individuals in HIV care. This suggested that augmenting secondary
 prevention interventions may be a means to decrease HIV incidence. This
-is joint work with 
-&lt;a href=&#34;https://people.miami.edu/profile/sas436@miami.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Steven
+is joint work with &lt;a href=&#34;https://people.miami.edu/profile/sas436@miami.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Steven
 Safren&lt;/a&gt;, Jim Hughes,
 and others.&lt;/p&gt;
 </description>
@@ -142,8 +135,7 @@ with age-discordant partnerships (one partner greater than 5 years older
 than the other) and examine the association between partner age
 discordance and HIV risk in young South African women. We found that a
 history of age-discordant partnerships is associated witih greater odds
-of reporting HIV risk factors. This is joint work with 
-&lt;a href=&#34;https://fmch.duke.edu/profile/tiarney-ritchwood&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tiarney
+of reporting HIV risk factors. This is joint work with &lt;a href=&#34;https://fmch.duke.edu/profile/tiarney-ritchwood&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tiarney
 Ritchwood&lt;/a&gt;, Jim Hughes,
 and others.&lt;/p&gt;
 </description>

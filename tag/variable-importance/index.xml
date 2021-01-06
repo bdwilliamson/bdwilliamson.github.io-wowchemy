@@ -5,12 +5,20 @@
     <link>https://bdwilliamson.github.io/tag/variable-importance/</link>
       <atom:link href="https://bdwilliamson.github.io/tag/variable-importance/index.xml" rel="self" type="application/rss+xml" />
     <description>variable-importance</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Mon, 14 Dec 2020 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2014--2021 Brian D. Williamson</copyright><lastBuildDate>Wed, 06 Jan 2021 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
       <title>variable-importance</title>
       <link>https://bdwilliamson.github.io/tag/variable-importance/</link>
     </image>
+    
+    <item>
+      <title>Statistical inference and containerization in computational pipelines</title>
+      <link>https://bdwilliamson.github.io/talk/fhbiostat2021/</link>
+      <pubDate>Wed, 06 Jan 2021 12:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/fhbiostat2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A unified approach to inference on algorithm-agnostic variable importance</title>
@@ -29,34 +37,13 @@
     </item>
     
     <item>
-      <title>Variable Importance</title>
-      <link>https://bdwilliamson.github.io/project/variable-importance/</link>
-      <pubDate>Mon, 13 Jul 2020 10:58:17 -0700</pubDate>
-      <guid>https://bdwilliamson.github.io/project/variable-importance/</guid>
-      <description>&lt;p&gt;It is often of interest to understand the population interplay between
-the outcome and measured covariates. Variable importance is a useful
-tool towards this goal. Examples include: HIV vaccine studies,
-correlates of risk analyses, and identifying patients at high risk of
-returning to a hospital after discharge for heart failure. This is joint
-work with 
-&lt;a href=&#34;http://faculty.washington.edu/mcarone/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marco
-Carone&lt;/a&gt;, 
-&lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter
-Gilbert&lt;/a&gt;, 
-&lt;a href=&#34;http://faculty.washington.edu/nrsimon/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noah Simon&lt;/a&gt;, and 
-&lt;a href=&#34;https://www.jeanfeng.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jean Feng&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Broadly Neutralizing Antibodies</title>
       <link>https://bdwilliamson.github.io/project/bnabs/</link>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/project/bnabs/</guid>
       <description>&lt;p&gt;The broadly neutralizing antibody VRC01, developed by the Vaccine
 Research Center of the National Institute of Allergy and Infectious
-Diseases, is currently being evaluated in the 
-&lt;a href=&#34;https://ampstudy.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antibody Mediated
+Diseases, is currently being evaluated in the &lt;a href=&#34;https://ampstudy.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Antibody Mediated
 Prevention&lt;/a&gt; study (AMP). While the primary goal
 of AMP is to assess the preventative efficacy of VRC01, a key secondary
 goal is to determine if this efficacy differs based on characteristics
@@ -65,16 +52,13 @@ that we might be interested in; if we simply did a statistical test for
 association at each possible location, and then appropriately accounted
 for this multiple testing, then we would have low power to detect
 effects. To prepare for AMP, we used data on HIV viruses from the
-
 &lt;a href=&#34;https://www.hiv.lanl.gov/components/sequence/HIV/neutralization/main.comp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Compile, Neutralize, and Tally NAb
 Panels&lt;/a&gt;
 database. Our goals were to: (i) develop a score that performed well for
 predicting whether or not an HIV virus was sensitive to neutralization
 by VRC01, and (ii) to identify groups of HIV genome features that were
 important in predicting neutralization sensitivity. This project is
-joint work with 
-&lt;a href=&#34;https://www.linkedin.com/in/camagaret/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Craig Magaret&lt;/a&gt;,
-
+joint work with &lt;a href=&#34;https://www.linkedin.com/in/camagaret/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Craig Magaret&lt;/a&gt;,
 &lt;a href=&#34;https://www.benkeserstatistics.com/#!&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Benkeser&lt;/a&gt;, Peter Gilbert,
 and others.&lt;/p&gt;
 &lt;p&gt;We next extended the methods used for the VRC01 analysis to combinations
@@ -93,6 +77,22 @@ Docker container.&lt;/p&gt;
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vRzn61LwDFNvmu5TgDnxWMYitkzx_Dqz6NmQnM9_WsFxZHeNsubg0MF_EWvVqvSsyHpELiVLmL11vMR/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variable Importance</title>
+      <link>https://bdwilliamson.github.io/project/variable-importance/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/project/variable-importance/</guid>
+      <description>&lt;p&gt;It is often of interest to understand the population interplay between
+the outcome and measured covariates. Variable importance is a useful
+tool towards this goal. Examples include: HIV vaccine studies,
+correlates of risk analyses, and identifying patients at high risk of
+returning to a hospital after discharge for heart failure. This is joint
+work with &lt;a href=&#34;http://faculty.washington.edu/mcarone/about.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marco
+Carone&lt;/a&gt;, &lt;a href=&#34;https://www.fredhutch.org/en/labs/profiles/gilbert-peter.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peter
+Gilbert&lt;/a&gt;, &lt;a href=&#34;http://faculty.washington.edu/nrsimon/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noah Simon&lt;/a&gt;, and &lt;a href=&#34;https://www.jeanfeng.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jean Feng&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -117,14 +117,6 @@ Docker container.&lt;/p&gt;
       <link>https://bdwilliamson.github.io/talk/jsm2018/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/talk/jsm2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nonparametric variable importance using an augmented neural network with multi-task learning</title>
-      <link>https://bdwilliamson.github.io/publication/conference-paper/nnet/</link>
-      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/publication/conference-paper/nnet/</guid>
       <description></description>
     </item>
     

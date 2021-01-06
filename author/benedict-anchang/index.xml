@@ -5,7 +5,7 @@
     <link>https://bdwilliamson.github.io/author/benedict-anchang/</link>
       <atom:link href="https://bdwilliamson.github.io/author/benedict-anchang/index.xml" rel="self" type="application/rss+xml" />
     <description>Benedict Anchang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2014--2020 Brian D. Williamson</copyright><lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2014--2021 Brian D. Williamson</copyright><lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
       <title>Benedict Anchang</title>
@@ -24,10 +24,8 @@ subpopulations of cells; create a nested effects model to infer gene
 hierarchy based on perturbation effects due to administered drugs; and
 create a scoring and ranking algorithm that identifies the minimal
 number of drugs among a combination of drugs with the maximal desired
-intracellular effects. This is joint work with 
-&lt;a href=&#34;http://med.stanford.edu/plevritis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sylvia
-Plevritis&lt;/a&gt;, 
-&lt;a href=&#34;http://med.stanford.edu/plevritis.html/People&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedict
+intracellular effects. This is joint work with &lt;a href=&#34;http://med.stanford.edu/plevritis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sylvia
+Plevritis&lt;/a&gt;, &lt;a href=&#34;http://med.stanford.edu/plevritis.html/People&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Benedict
 Anchang&lt;/a&gt;, and others.&lt;/p&gt;
 </description>
     </item>
