@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Inference for model-agnostic variable importance</title>
+      <link>https://bdwilliamson.github.io/talk/inference-for-model-agnostic-variable-importance/</link>
+      <pubDate>Tue, 19 Jan 2021 15:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/talk/inference-for-model-agnostic-variable-importance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Statistical inference and containerization in computational pipelines</title>
       <link>https://bdwilliamson.github.io/talk/statistical-inference-and-containerization-in-computational-pipelines/</link>
       <pubDate>Wed, 06 Jan 2021 12:00:00 +0000</pubDate>
