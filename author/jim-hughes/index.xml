@@ -5,7 +5,7 @@
     <link>https://bdwilliamson.github.io/author/jim-hughes/</link>
       <atom:link href="https://bdwilliamson.github.io/author/jim-hughes/index.xml" rel="self" type="application/rss+xml" />
     <description>Jim Hughes</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2014--2021 Brian D. Williamson</copyright><lastBuildDate>Sun, 08 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2014--2021 Brian D. Williamson</copyright><lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
       <title>Jim Hughes</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>A multi-view model for relative and absolute microbial abundances</title>
-      <link>https://bdwilliamson.github.io/publication/preprint/paramedic/</link>
-      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/publication/preprint/paramedic/</guid>
+      <link>https://bdwilliamson.github.io/publication/journal-article/paramedic/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/paramedic/</guid>
       <description>&lt;p&gt;In this work, we propose a statistical method for combining inexpensive
 (but often lower-quality) estimates of relative abundance (e.g.,
 collected using universal primers for the 16S rRNA gene) and higher

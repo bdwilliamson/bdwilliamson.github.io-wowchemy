@@ -5,12 +5,37 @@
     <link>https://bdwilliamson.github.io/</link>
       <atom:link href="https://bdwilliamson.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Brian D. Williamson, PhD</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2014--2021 Brian D. Williamson</copyright><lastBuildDate>Tue, 04 May 2021 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2014--2021 Brian D. Williamson</copyright><lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
       <title>Brian D. Williamson, PhD</title>
       <link>https://bdwilliamson.github.io/</link>
     </image>
+    
+    <item>
+      <title>A multi-view model for relative and absolute microbial abundances</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/paramedic/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/paramedic/</guid>
+      <description>&lt;p&gt;In this work, we propose a statistical method for combining inexpensive
+(but often lower-quality) estimates of relative abundance (e.g.,
+collected using universal primers for the 16S rRNA gene) and higher
+quality (but often expensive) estimates of absolute abundance (e.g.,
+from quantitative PCR) to estimate absolute abundance of all taxa.
+Crucially, our proposal accounts for differences in the efficiency of
+taxon detection in the relative and absolute abundance data. This is
+joint work with &lt;a href=&#34;http://faculty.washington.edu/jphughes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jim Hughes&lt;/a&gt;
+and &lt;a href=&#34;http://statisticaldiversitylab.com/team/amy-willis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amy Willis&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Super LeArner Prediction of NAb Panels (SLAPNAP): a containerized tool for predicting combination monoclonal broadly neutralizing antibody sensitivity</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/slapnap/</link>
+      <pubDate>Tue, 18 May 2021 11:33:43 -0700</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/slapnap/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Inference for model-agnostic variable importance</title>
@@ -61,7 +86,7 @@
     </item>
     
     <item>
-      <title>Nonparametric variable importance assessment using machine learning techniques</title>
+      <title>Nonparametric variable importance assessment using machine learning techniques (with discussion)</title>
       <link>https://bdwilliamson.github.io/publication/journal-article/vim1/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://bdwilliamson.github.io/publication/journal-article/vim1/</guid>
@@ -76,14 +101,6 @@
       <guid>https://bdwilliamson.github.io/publication/journal-article/cmv/</guid>
       <description>&lt;p&gt;We used machine learning and classical statistical tools to assess potential surrogate endpoings for cytomegalovirus (CMV) disease, and identified several viral load kinetic variables (mean, peak, and change in viral load over the first five weeks of treatment) that satisfied the Prentice criteria for surrogate endpoints.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Super LeArner Prediction of NAb Panels (SLAPNAP): a containerized tool for predicting combination monoclonal broadly neutralizing antibody sensitivity</title>
-      <link>https://bdwilliamson.github.io/publication/preprint/slapnap/</link>
-      <pubDate>Mon, 13 Jul 2020 11:33:43 -0700</pubDate>
-      <guid>https://bdwilliamson.github.io/publication/preprint/slapnap/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -292,23 +309,6 @@ Network&lt;/a&gt; to analyze data from the &lt;a href=&#34;https://www.hvtn.org/
 clinical trial. We identified three antibody features that inversely
 correlated with HIV-1 infection risk. This may help in designing future
 HIV-1 vaccines.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A multi-view model for relative and absolute microbial abundances</title>
-      <link>https://bdwilliamson.github.io/publication/preprint/paramedic/</link>
-      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://bdwilliamson.github.io/publication/preprint/paramedic/</guid>
-      <description>&lt;p&gt;In this work, we propose a statistical method for combining inexpensive
-(but often lower-quality) estimates of relative abundance (e.g.,
-collected using universal primers for the 16S rRNA gene) and higher
-quality (but often expensive) estimates of absolute abundance (e.g.,
-from quantitative PCR) to estimate absolute abundance of all taxa.
-Crucially, our proposal accounts for differences in the efficiency of
-taxon detection in the relative and absolute abundance data. This is
-joint work with &lt;a href=&#34;http://faculty.washington.edu/jphughes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jim Hughes&lt;/a&gt;
-and &lt;a href=&#34;http://statisticaldiversitylab.com/team/amy-willis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amy Willis&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
