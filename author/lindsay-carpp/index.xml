@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lindsay Carpp | Brian D. Williamson, PhD</title>
+    <link>https://bdwilliamson.github.io/author/lindsay-carpp/</link>
+      <atom:link href="https://bdwilliamson.github.io/author/lindsay-carpp/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lindsay Carpp</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2014--2021 Brian D. Williamson</copyright><lastBuildDate>Wed, 31 Dec 1969 16:33:41 -0800</lastBuildDate>
+    <image>
+      <url>https://bdwilliamson.github.io/images/icon_huca44d5504774c48bc693dc9fda57798d_24945_512x512_fill_lanczos_center_2.png</url>
+      <title>Lindsay Carpp</title>
+      <link>https://bdwilliamson.github.io/author/lindsay-carpp/</link>
+    </image>
+    
+    <item>
+      <title>Analysis of neutralizing antibodies as a correlate of instantaneous risk of hospitalized dengue in placebo recipients of dengue vaccine efficacy trials</title>
+      <link>https://bdwilliamson.github.io/publication/journal-article/dengue/</link>
+      <pubDate>Wed, 31 Dec 1969 16:33:41 -0800</pubDate>
+      <guid>https://bdwilliamson.github.io/publication/journal-article/dengue/</guid>
+      <description>&lt;p&gt;In this work, we propose a statistical method for combining inexpensive
+(but often lower-quality) estimates of relative abundance (e.g.,
+collected using universal primers for the 16S rRNA gene) and higher
+quality (but often expensive) estimates of absolute abundance (e.g.,
+from quantitative PCR) to estimate absolute abundance of all taxa.
+Crucially, our proposal accounts for differences in the efficiency of
+taxon detection in the relative and absolute abundance data. This is
+joint work with &lt;a href=&#34;http://faculty.washington.edu/jphughes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jim Hughes&lt;/a&gt;
+and &lt;a href=&#34;http://statisticaldiversitylab.com/team/amy-willis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amy Willis&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
